@@ -1,0 +1,82 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+*{
+ 
+    font-family: "ocr-a-std", monospace;
+}
+
+.main{
+    background-image: url(images/tarkovBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100%;
+    background-color: blue;
+    display:flex;
+}
+
+.header{
+    height:10vh;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.486);
+    align-items: center;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.siteName{
+    background-image: url(images/websiteName.png);
+    background-size: 45vh;
+    background-repeat: no-repeat;
+    height:100%;
+    width:25%;
+}
+
+.searchDiv{
+    display: flex;
+    flex-direction: column;
+    height:100%;width:20%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:50%;
+    font-size: 16px;
+    margin-top: 2vh;
+    border: 1px solid #ddd;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }

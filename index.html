@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>EFTCentral</title>
+</head>
+<body>
+    <div class = "main">
+        <header class="header">
+            <div class ="siteName">
+            </div>
+            <div class=searchDiv>
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+                <ul id="myUL">
+                    <li id="test"><a href="#">Adele</a></li>
+                    <li id="test"><a href="#">Agnes</a></li>
+                
+                    <li id="test"><a href="#">Billy</a></li>
+                    <li id="test"><a href="#">Bob</a></li>
+                
+                    <li id="test"><a href="#">Calvin</a></li>
+                    <li id="test"><a href="#">Christina</a></li>
+                    <li id="test"><a href="#">Cindy</a></li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+
+     
+<script>
+
+     window.onload = myFunction;
+
+
+
+function myFunction() {
+    
+                var li = document.getElementsByTagName('li');
+
+            for (i = 0; i < li.length; i++) {
+
+                li[i].style.display = "none";
+
+            }
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+
+    for (i = 0; i < li.length; i++) {
+        if(filter==""){
+            li[i].style.display = "none";
+        }
+        else{
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+    }
+}
+}
+</script>
+</body>
+</html>
