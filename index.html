@@ -5,26 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="script.js"></script>
     <title>EFTCentral</title>
 </head>
 <body>
     <div class = "main">
         <header class="header">
+            <div class="headerLeft">
             <div class ="siteName">
             </div>
             <div class=searchDiv>
                 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
                 <ul id="myUL">
-                    <li id="test"><a href="#">Adele</a></li>
-                    <li id="test"><a href="#">Agnes</a></li>
+                    <li ><a href="#">About</a></li>
+                    <li ><a href="#">Ammunition</a></li>
                 
-                    <li id="test"><a href="#">Billy</a></li>
-                    <li id="test"><a href="#">Bob</a></li>
+                    <li ><a href="#">History</a></li>
+                    <li ><a href="#">Maps</a></li>
                 
-                    <li id="test"><a href="#">Calvin</a></li>
-                    <li id="test"><a href="#">Christina</a></li>
-                    <li id="test"><a href="#">Cindy</a></li>
+                    <li ><a href="#">Armor</a></li>
+                    <li ><a href="#">Gun modification</a></li>
                 </ul>
+            </div>
+            </div>
+            <div>
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+                    <a href="#">Home</a>
+                    <a href="#section2">Explore</a>
+                    <a href="#section3">News</a>
+                    <a href="#section4">About</a>
+                </div>
+                
+                <div id="main">
+                    <button class="openbtn" onclick="openSidebar()"><i class='bx bx-menu'></i> Menu</button>
+                </div>
             </div>
         </header>
     </div>
@@ -46,11 +63,12 @@ function myFunction() {
                 li[i].style.display = "none";
 
             }
-    var input, filter, ul, li, a, i, txtValue;
+    var input, filter, ul, li, a, i, txtValue, test;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     ul = document.getElementById("myUL");
     li = ul.getElementsByTagName("li");
+    test = document.getElementById("test");
 
     for (i = 0; i < li.length; i++) {
         if(filter==""){
@@ -59,7 +77,7 @@ function myFunction() {
         else{
             a = li[i].getElementsByTagName("a")[0];
             txtValue = a.textContent || a.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            if (txtValue.toUpperCase().indexOf(filter) > -1 && txtValue.toUpperCase().indexOf(filter[1])>-1 ) {
                 li[i].style.display = "";
             } else {
                 li[i].style.display = "none";
