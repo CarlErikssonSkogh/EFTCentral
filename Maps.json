@@ -1,7 +1,30 @@
 [
+    
     {
-        "image":"images/armour1.jpg",
-        "header":"detta är en header",
-        "info":"detta är info"
+        "image":"maps/customsDetailed.jpg"
+    },
+    {
+        "image":"maps/woods.jpg"
+    },
+    {
+        "image":"maps/shoreline.jpg"
+    },
+    {
+        "image":"maps/lighthouse.jpg"
+    },
+    {
+        "image":"maps/reserve.jpg"
+    },
+    {
+        "image":"maps/streets.jpg"
+    },
+    {
+        "image":"maps/factory.jpg"
+    },
+    {
+        "image":"maps/interchange.jpg"
+    },
+    {
+        "image":"maps/labs.jpg"
     }
 ]

@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
-<body>
+<body style="overflow-x: hidden; overflow-y: hidden;">
 
 
     <div class="jsonCode">
-        <h1 id="header"></h1>
-        <p id="info"></p>
-        <img id="img" src="" alt="">
+        <!--<h1 id="header"></h1>
+        <p id="info"></p>-->
+        <div style="height:100%; width:100%;">
+            <img id="img" src="" alt="" style="object-fit: contain;">
+        </div>
     </div>
 
 
@@ -32,8 +34,8 @@
         console.log(data[id]);
 
         const subjectContainer = document.querySelector(".jsonCode");
-        subjectContainer.querySelector("#header").innerHTML = subject.header;
-        subjectContainer.querySelector("#info").innerHTML = subject.info; 
+        //subjectContainer.querySelector("#header").innerHTML = subject.header;
+        //subjectContainer.querySelector("#info").innerHTML = subject.info; 
         subjectContainer.querySelector("#img").src = subject.image;
         })
     </script>

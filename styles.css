@@ -263,7 +263,8 @@ body {
 #header{
   color: blue;
 }
-#image{
-  height:1000px;
-  width:100px;
+#img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
