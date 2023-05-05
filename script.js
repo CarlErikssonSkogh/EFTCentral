@@ -10,28 +10,51 @@ const closeSidebar = () => {
 };
 
 
-function getParameter(parameter){
-  let parameters = new URLSearchParams(window.location.search);
-  return parameters.get(parameter);
-}
-
-let parameters = new URLSearchParams(window.location.search);
-id = parameters.get("id");
-
-console.log(id);
 
 
-fetch("info.json")
-.then(response => response.json())
-.then(data => {
-const subject = data[id];
-console.log(data[id]);
 
-const subjectContainer = document.querySelector(".jsonCode");
-subjectContainer.querySelector("#header").innerHTML = subject.header;
-subjectContainer.querySelector("#info").innerHTML = subject.info; 
-//productcontainer.querySelector("#img").src = products.image;
-})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

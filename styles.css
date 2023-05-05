@@ -256,3 +256,14 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+#info{
+  color:red;
+}
+#header{
+  color: blue;
+}
+#image{
+  height:1000px;
+  width:100px;
+}

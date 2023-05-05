@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="jsonCode">
+        <h1 id="header"></h1>
+        <p id="info"></p>
+        <img id="img" src="" alt="">
+    </div>
+
+
+    <script>
+        //id sak
+        let parameters = new URLSearchParams(window.location.search);
+        id = parameters.get("id");
+
+        console.log(id);
+
+
+        fetch("Maps.json")
+        .then(response => response.json())
+        .then(data => {
+        const subject = data[id];
+        console.log(data[id]);
+
+        const subjectContainer = document.querySelector(".jsonCode");
+        subjectContainer.querySelector("#header").innerHTML = subject.header;
+        subjectContainer.querySelector("#info").innerHTML = subject.info; 
+        subjectContainer.querySelector("#img").src = subject.image;
+        })
+    </script>
+</body>
+</html>
