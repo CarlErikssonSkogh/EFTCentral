@@ -1,24 +1,21 @@
-body{
-    margin:0px;
-    padding:0px;
+body {
+  font-family: "ocr-a-std", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-  }
-
-*{
- 
-    font-family: "ocr-a-std", monospace;
+* {
+  box-sizing: inherit;
 }
 
 .main{
     background-image: url(images/tarkovBackground.png);
     background-size: cover;
-    background-repeat: no-repeat;
     height: 100vh;
+    padding: 0;
+    margin: 0;
     width:100%;
-    background-color: blue;
     display:flex;
 }
 
@@ -46,9 +43,7 @@ html {
     height:100%;width:30%;
 }
 
-* {
-    box-sizing: border-box;
-  }
+
   
   #myInput {
     background-image: url('/css/searchicon.png');
@@ -96,7 +91,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
+    
   }
 
   .sidebar {
@@ -160,4 +155,104 @@ html {
         font-size: 18px;
     }
 }
+
+.middleSegment{
+  width: 100%;
+  height:5vh;
+  background-color: rgb(58, 58, 58);
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 4vh;
+  text-align: center;
+}
  
+
+
+.about{
+  background-color: black;
+  background-image: url(images/Pine\ forest.jpg);
+  background-size: cover;
+  height:50vh;
+  width:100%;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutText{
+  height:50%;
+  width:75%;
+  margin:0;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.486);
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section3{
+  background-image: url(maps/allMaps.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:75vh;
+  width:100%;
+  margin:0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mapMenu{
+  background-color: rgba(138, 138, 138, 0.486);
+  height: 80%;
+  width:20%;
+  padding:0;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.mapMenu a{
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  height:100%;
+  font-size: 3.5vh;
+  width: 100%;
+  border-style: solid;
+  border-color: black;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section4{
+  background-image: url(images/weapon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -3.3vh;
+  height:75vh;
+  width:100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section5{
+  background-image: url(images/armour1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -3.3vh;
+  height:75vh;
+  width:100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
