@@ -9,58 +9,6 @@ const closeSidebar = () => {
     document.getElementById("main").style.marginLeft = "0";
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Ha på det här sättet fast med ammo och armor, sedan lägg upp html strukturen i en js fil med css klasser så man kan positionera allt.
 poitionea allt genom att sätta varje item i en lång div över hela skrämen, denna div ska sedan ha en div i sig för varje sak(flesh damage) osv*/
 const products = [

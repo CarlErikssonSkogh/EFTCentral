@@ -1,0 +1,21 @@
+[
+    {
+        "icon":"ammo/7.62x39/BP.jpg",
+        "name":"7.62x39mm BP gzh",
+        "fleshDmg":"58",
+        "penetration":"47",
+        "armorDmg":"63",
+        "recoil":"+5",
+        "projectileSpeed":"730",
+        "obtainedBy":"Workbench LVL3",
+
+        "icon2":"ammo/7.62x39/HP.jpg",
+        "name2":"7.62x39mm HP",
+        "fleshDmg2":"87",
+        "penetration2":"15",
+        "armorDmg2":"35",
+        "recoil2":"",
+        "projectileSpeed2":"754",
+        "obtainedBy2":"Prapor LL1 Jaeger LL1"
+    }
+]
