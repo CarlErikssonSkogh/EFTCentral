@@ -1,8 +1,13 @@
+
+
+
+
+
+
 <!--Jag hade inte tid att göra klart alla knappar då det finns extremt många där alla ska göra samma sak. Denna enda kalibern som fungerar är 7.62x39 för tillfället.
 alla maps fungerar. Ingen armor fungerar men det är bara copypaste från ammunution fast byta ut bilderna och informationen. Att göra klart alla knappar för all ammunution 
-och armor är något som jag kommer att göra vid ett senare tillfälle, t.ex under kompleteringen eftersom det inte är någon "ny kod" utan mest copy paste fast byta ut information-->
-
-
+och armor är något som jag kommer att göra vid ett senare tillfälle, t.ex under kompleteringen eftersom det inte är någon "ny kod" utan mest copy paste fast byta ut 
+informationen-->
 
 
 
@@ -32,7 +37,7 @@ och armor är något som jag kommer att göra vid ett senare tillfälle, t.ex un
             <!-- Skapar en sökfält div som används för att söka efter information på hemsidan -->
             <div class=searchDiv>
              <!-- Skapar en lista (ul) som innehåller länkar (a) till olika avsnitt av hemsidan --> 
-                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search" title="Type in a name">
+                <input type="text" id="myInput" onkeyup="searchFunction()" placeholder="Search" title="Type in a name">
                 <ul id="myUL">
                     <li ><a href="#section2">About</a></li>
                     <li ><a href="#section4">Ammunition</a></li>
@@ -78,6 +83,7 @@ och armor är något som jag kommer att göra vid ett senare tillfälle, t.ex un
             </div>
             </div>
             <div>
+                <!--sidebar-->
                 <div id="mySidebar" class="sidebar">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
                     <a href="#">Home</a>
@@ -92,8 +98,10 @@ och armor är något som jag kommer att göra vid ett senare tillfälle, t.ex un
             </div>
         </header>
     </div>
+<!--sepererar varje sektion-->
 <div class = middleSegment>About</div>
 
+<!--Informationsruta om hemsidans syfte-->
 <div class="about" id="section2">
     <div class="aboutText">Den här hemsidan är en samling av användbar information kring spelet "Escape From Tarkov". På Denna hemsida hittar du bland annat information 
         om alla olika kartor. Du hittar även en mängd av statistik för armor och ammunution. Nästan alla Bilder på hemsidan är tagna från spelet.
@@ -103,8 +111,9 @@ och armor är något som jag kommer att göra vid ett senare tillfälle, t.ex un
 
 <div class = middleSegment id>Maps</div>
 
+<!--En navigeringsmeny som leder till alla kartor som finns i spelet-->
 <div id="section3">
-    <div class = mapMenu>
+    <div class = objectMenu>
         <a href="mapshtml.html?id=0">Customs</a>
         <a href="mapshtml.html?id=1">Woods</a>
         <a href="mapshtml.html?id=2">Shoreline</a>
@@ -117,8 +126,10 @@ och armor är något som jag kommer att göra vid ett senare tillfälle, t.ex un
     </div>
 </div>
 <div class = middleSegment>Ammunition</div> 
+
+<!--ny sektion med navigeringsmenyer till alla kalibrar som finns i spelet-->
 <div id="section4">
-    <div class = mapMenu>
+    <div class = objectMenu>
         <a href="#">40x46mm</a>
         <a href="#">23x75mm</a>
         <a href="#">20x70mm</a>
@@ -131,7 +142,7 @@ och armor är något som jag kommer att göra vid ett senare tillfälle, t.ex un
         <a href="#">9x39mm</a>
         <a href="#">9x21mm</a>
     </div>
-    <div class = mapMenu>
+    <div class = objectMenu>
         <a href="#">9x19mm</a>
         <a href="#">9x18mm</a>
         <a href="#">.300</a>
@@ -147,9 +158,9 @@ och armor är något som jag kommer att göra vid ett senare tillfälle, t.ex un
 </div>
 
 <div class = middleSegment>Armour</div> 
-
+<!--Ny sektion med navigeringsmeny till alla kroppsskydd som finns i spelet-->
 <div id="section5">
-    <div class = mapMenu>
+    <div class = objectMenu>
         <a>Armor Levels</a>
         <a href="#">1</a>
         <a href="#">2</a>
@@ -158,7 +169,7 @@ och armor är något som jag kommer att göra vid ett senare tillfälle, t.ex un
         <a href="#">5</a>
         <a href="#">6</a>
     </div>
-    <div class = mapMenu>
+    <div class = objectMenu>
         <a>Helmet Levels</a>
         <a href="#">1</a>
         <a href="#">2</a>
@@ -170,42 +181,9 @@ och armor är något som jag kommer att göra vid ett senare tillfälle, t.ex un
 </div>
 
 <script>
+    /*Gör så att sök alternativen ej visas vid start av hemsidan*/
+    window.onload = searchFunction;
 
-     window.onload = myFunction;
-
-
-
-function myFunction() {
-    
-                var li = document.getElementsByTagName('li');
-
-            for (i = 0; i < li.length; i++) {
-
-                li[i].style.display = "none";
-
-            }
-    var input, filter, ul, li, a, i, txtValue, test;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName("li");
-    test = document.getElementById("test");
-
-    for (i = 0; i < li.length; i++) {
-        if(filter==""){
-            li[i].style.display = "none";
-        }
-        else{
-            a = li[i].getElementsByTagName("a")[0];
-            txtValue = a.textContent || a.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                li[i].style.display = "";
-            } else {
-                li[i].style.display = "none";
-            }
-    }
-}
-}
 </script>
 </body>
 </html>

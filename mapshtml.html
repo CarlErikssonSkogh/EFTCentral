@@ -22,22 +22,20 @@ url(images/Pine\ forest.jpg);">
 
 
     <script>
-        //id sak
+        // Hämtar id från URL-parametern
         let parameters = new URLSearchParams(window.location.search);
         id = parameters.get("id");
 
         console.log(id);
 
-
+        // Hämtar JSON-data från ammodata.json
         fetch("Maps.json")
         .then(response => response.json())
         .then(data => {
         const subject = data[id];
         console.log(data[id]);
-
+        //skapar ett img id och en image tag som kan förknippas med varje keyvalue i json filen
         const subjectContainer = document.querySelector(".jsonCode");
-        //subjectContainer.querySelector("#header").innerHTML = subject.header;
-        //subjectContainer.querySelector("#info").innerHTML = subject.info; 
         subjectContainer.querySelector("#img").src = subject.image;
         })
     </script>

@@ -8,7 +8,7 @@ body {
 * {
   box-sizing: inherit;
 }
-
+/*huvud bakgrunden*/
 .main{
     background-image: url(images/tarkovBackground.png);
     background-size: cover;
@@ -18,7 +18,7 @@ body {
     width:100%;
     display:flex;
 }
-
+/*headern med meny, searchdiv och sitename i sig*/
 .header{
     height:10vh;
     width:100%;
@@ -28,7 +28,7 @@ body {
     justify-content: space-between;
     position:fixed;
 }
-
+/*Hemknapp och logga för hemsidan*/
 .siteName{
     background-image: url(images/websiteName.png);
     background-size: 45vh;
@@ -36,7 +36,7 @@ body {
     height:100%;
     width:50%;
 }
-
+/*diven som man söker i*/
 .searchDiv{
     display: flex;
     flex-direction: column;
@@ -84,7 +84,7 @@ body {
     display: flex;
     justify-content: flex-end;
   }
-
+/*den vänstra sidan av headern, inehåller sitename och search diven*/
   .headerLeft{
     height: 100%;
     width:50%;
@@ -104,7 +104,7 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
 }
-
+/*navigerings knapparna i sidebaren*/
 .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -123,7 +123,7 @@ body {
 .sidebar .closebtn {
     font-size: 36px;
 }
-
+/*knappen som öppnar sidebaren*/
 .openbtn {
     font-size: 2vh;
     max-height: 100%;
@@ -140,22 +140,14 @@ body {
 .sidebar a:hover {
     filter: brightness(10%);
   }
-
+/*sidebaren som dyker upp när man trycker på openbtn*/
 #main {
     transition: margin-left 0.5s;
     width:20%;
 }
 
-@media screen and (max-height: 480px) {
-    .sidebar {
-        padding-top: 15px;
-    }
 
-    .sidebar a {
-        font-size: 18px;
-    }
-}
-
+/*separerar varje sektion med en grå div med text*/
 .middleSegment{
   width: 100%;
   height:5vh;
@@ -167,7 +159,7 @@ body {
 }
  
 
-
+/*container till informations rutan*/
 .about{
   background-color: black;
   background-image: url(images/Pine\ forest.jpg);
@@ -180,7 +172,7 @@ body {
   justify-content: center;
   font-size: 2vh;
 }
-
+/*Text om allmän information*/
 .aboutText{
   height:50%;
   width:75%;
@@ -205,7 +197,9 @@ body {
   align-items: center;
   justify-content: center;
 }
-.mapMenu{
+
+/*Meny för både kalibrar, armor och maps*/
+.objectMenu{
   background-color: rgba(138, 138, 138, 0.486);
   height: 80%;
   width:20%;
@@ -215,8 +209,8 @@ body {
   flex-direction: column;
 }
 
-
-.mapMenu a{
+/*Meny för både kalibrar, armor och maps*/
+.objectMenu a{
   text-align: center;
   text-decoration: none;
   color: rgb(0, 0, 0);
@@ -291,9 +285,10 @@ table, th, td {
 }
 
 th{
-width: vh;
+width: 15vh;
 }
 
+/*responsivitet*/
 @media only screen and (max-width: 820px) {
 .siteName{
   background-size: 20vh;
@@ -318,11 +313,11 @@ width: vh;
   font-size: 10px;
 }
 
-.mapMenu{
+.objectMenu{
   width: 50%;
 }
 
-.mapMenu a{
+.objectMenu a{
   font-size: 2vh;
 }
 
@@ -371,4 +366,13 @@ table, th, td {
   .middleSegment{
     font-size: 2vh;
   }
+
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
 }
+
