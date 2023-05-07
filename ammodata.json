@@ -1,21 +1,106 @@
 [
-    {
-        "icon":"ammo/7.62x39/BP.jpg",
-        "name":"7.62x39mm BP gzh",
-        "fleshDmg":"58",
-        "penetration":"47",
-        "armorDmg":"63",
-        "recoil":"+5",
-        "projectileSpeed":"730",
-        "obtainedBy":"Workbench LVL3",
+    [
+        {
+        "icon": "ammo/7.62x39/AP.jpg",
+        "name": "7.62x39mm MAI AP",
+        "fleshDmg": "46",
+        "penetration": "58",
+        "armorDmg": "76",
+        "recoil": "+10",
+        "projectileSpeed": "730",
+        "specialEffects":"",
+        "obtainedBy": "Loot only"
+        },
+      {
+        "icon": "ammo/7.62x39/BP.jpg",
+        "name": "7.62x39mm BP gzh",
+        "fleshDmg": "58",
+        "penetration": "47",
+        "armorDmg": "63",
+        "recoil": "+5",
+        "projectileSpeed": "730",
+        "specialEffects":"",
+        "obtainedBy": "Workbench LVL3"
+      },
+      {
+        "icon": "ammo/7.62x39/PS.jpg",
+        "name": "7.62x39mm PS gzh",
+        "fleshDmg": "57",
+        "penetration": "35",
+        "armorDmg": "52",
+        "recoil": "",
+        "projectileSpeed": "700",
+        "specialEffects":"",
+        "obtainedBy": "Prapor LL2"
+      },
+      {
+        "icon": "ammo/7.62x39/T45M.jpg",
+        "name": "7.62x39mm T-45M1 gzh",
+        "fleshDmg": "64",
+        "penetration": "30",
+        "armorDmg": "46",
+        "recoil": "-6",
+        "projectileSpeed": "720",
+        "specialEffects":"Tracer(red)",
+        "obtainedBy": "Prapor LL2"
+      },
+      {
+        "icon": "ammo/7.62x39/US.webp",
+        "name": "7.62x39mm US gzh",
+        "fleshDmg": "58",
+        "penetration": "29",
+        "armorDmg": "42",
+        "recoil": "-30",
+        "projectileSpeed": "300",
+        "specialEffects":"Subsonic",
+        "obtainedBy": "Prapor LL3"
+      },
+      {
+        "icon": "ammo/7.62x39/HP.jpg",
+        "name": "7.62x39mm HP",
+        "fleshDmg": "87",
+        "penetration": "15",
+        "armorDmg": "35",
+        "recoil": "",
+        "projectileSpeed": "754",
+        "specialEffects":"",
+        "obtainedBy": "Prapor LL1 Jaeger LL1"
+      }
+    ],
 
-        "icon2":"ammo/7.62x39/HP.jpg",
-        "name2":"7.62x39mm HP",
-        "fleshDmg2":"87",
-        "penetration2":"15",
-        "armorDmg2":"35",
-        "recoil2":"",
-        "projectileSpeed2":"754",
-        "obtainedBy2":"Prapor LL1 Jaeger LL1"
-    }
-]
+    [
+      {
+        "icon": "ammo/5.45x39/BP.jpg",
+        "name": "5.45x39mm BP gzh",
+        "fleshDmg": "37",
+        "penetration": "41",
+        "armorDmg": "62",
+        "recoil": "+3",
+        "projectileSpeed": "890",
+        "specialEffects":"",
+        "obtainedBy": "Workbench LVL3"
+      },
+      {
+        "icon": "ammo/5.45x39/HP.jpg",
+        "name": "5.45x39mm HP",
+        "fleshDmg": "63",
+        "penetration": "6",
+        "armorDmg": "20",
+        "recoil": "",
+        "projectileSpeed": "890",
+        "specialEffects":"",
+        "obtainedBy": "Prapor LL1 Jaeger LL1"
+      },
+      {
+        "icon": "ammo/5.45x39/BT.jpg",
+        "name": "5.45x39mm BT",
+        "fleshDmg": "41",
+        "penetration": "37",
+        "armorDmg": "54",
+        "recoil": "+5",
+        "projectileSpeed": "870",
+        "specialEffects":"",
+        "obtainedBy": "Loot only"
+      }
+    ]
+  ]

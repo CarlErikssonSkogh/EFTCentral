@@ -10,113 +10,62 @@
 <body style="background-color: rgb(0, 0, 0); background-image: url(images/ammowall.png); background-repeat: no-repeat; background-size: 100%;">
     <div class="jsonCode" style="height:100vh; width:100%;display: flex;align-items: center;justify-content: center;">
 
-<table>
-<tr>
-    <th>
-        icon
-    </th>
-    <th>
-        name
-    </th>
-    <th>
-        flesh damage
-    </th>
-    <th>
-        penetration power
-    </th>
-    <th>
-        armor damage %
-    </th>
-    <th>
-        recoil
-    </th>
-    <th>
-        projectilespeed (m/s)
-    </th>
-    <th>
-        obtained by
-    </th>
-</tr>
-<tr>
-    <td>
-        <img id="icon" class="icon" src="" alt="" style="object-fit: contain;">
-    </td>
-    <td id="name">
-    </td>
-    <td id="fleshDmg">
-    </td>
-    <td id="penetration">
-    </td>
-    <td id="armorDmg">
-    </td>
-    <td id="recoil">
-    </td>
-    <td id="projectileSpeed">
-    </td>
-    <td id="obtainedBy">
-    </td>
-</tr>
-<tr>
-    <td>
-        <img id="icon2" class="icon" src="" alt="" style="object-fit: contain;">
-    </td>
-    <td id="name2">
-    </td>
-    <td id="fleshDmg2">
-    </td>
-    <td id="penetration2">
-    </td>
-    <td id="armorDmg2">
-    </td>
-    <td id="recoil2">
-    </td>
-    <td id="projectileSpeed2">
-    </td>
-    <td id="obtainedBy2">
-    </td>
-</tr>
-
-</table>  
-
-
+        <table>
+            <thead>
+                <tr>
+                    <th>icon</th>
+                    <th>name</th>
+                    <th>flesh damage</th>
+                    <th>penetration power</th>
+                    <th>armor damage %</th>
+                    <th>recoil</th>
+                    <th>projectilespeed (m/s)</th>
+                    <th>special Effects</th>
+                    <th>obtained by</th>
+                </tr>
+            </thead>
+            <tbody id="ammoTableBody"></tbody>
+        </table>
     </div>
 
-
     <script>
-        //id sak
-        let parameters = new URLSearchParams(window.location.search);
-        id = parameters.get("id");
-        
+    // Hämtar id från URL-parametern
+    let parameters = new URLSearchParams(window.location.search);
+    let id = parameters.get("id");
 
-        console.log(id);
+    // Hämtar JSON-data från ammodata.json
+    fetch("ammodata.json")
+    .then(response => response.json())
+    .then(data => {
 
-
-        fetch("ammodata.json")
-        .then(response => response.json())
-        .then(data => {
-        const subject = data[id];
-        var count = Object.keys(data[id]).length;
-        console.log(count);
-
+        // Hittar HTML-element som visar JSON-data
         const subjectContainer = document.querySelector(".jsonCode");
-        subjectContainer.querySelector("#icon").src = subject.icon;
-        subjectContainer.querySelector("#name").innerHTML = subject.name;
-        subjectContainer.querySelector("#fleshDmg").innerHTML = subject.fleshDmg; 
-        subjectContainer.querySelector("#penetration").innerHTML = subject.penetration;
-        subjectContainer.querySelector("#armorDmg").innerHTML = subject.armorDmg;
-        subjectContainer.querySelector("#recoil").innerHTML = subject.recoil;
-        subjectContainer.querySelector("#projectileSpeed").innerHTML = subject.projectileSpeed;
-        subjectContainer.querySelector("#obtainedBy").innerHTML = subject.obtainedBy;
+        const tableBody = subjectContainer.querySelector("table tbody");
 
-        subjectContainer.querySelector("#icon2").src = subject.icon2;
-        subjectContainer.querySelector("#name2").innerHTML = subject.name2;
-        subjectContainer.querySelector("#fleshDmg2").innerHTML = subject.fleshDmg2; 
-        subjectContainer.querySelector("#penetration2").innerHTML = subject.penetration2;
-        subjectContainer.querySelector("#armorDmg2").innerHTML = subject.armorDmg2;
-        subjectContainer.querySelector("#recoil2").innerHTML = subject.recoil2;
-        subjectContainer.querySelector("#projectileSpeed2").innerHTML = subject.projectileSpeed2;
-        subjectContainer.querySelector("#obtainedBy2").innerHTML = subject.obtainedBy2;
-        })
+        // Loopar igenom objektet som matchar id och skapar en HTML-tabellrad för varje objekt
+        for (let i = 0; i < data[id].length; i++) {
+        const ammo = data[id][i];
+
+        const newRow = document.createElement("tr");
+        newRow.innerHTML = `
+            <td><img class="icon" src="${ammo.icon}" alt="" style="object-fit: contain;"></td>
+            <td>${ammo.name}</td>
+            <td>${ammo.fleshDmg}</td>
+            <td>${ammo.penetration}</td>
+            <td>${ammo.armorDmg}</td>
+            <td style="color: ${ammo.recoil >= 0 ? 'green' : 'red'}">${ammo.recoil}</td>
+            <td>${ammo.projectileSpeed}</td>
+            <td>${ammo.specialEffects}</td>
+            <td>${ammo.obtainedBy}</td>
+        `;
+
+        // Lägger till raden i HTML-tabellen
+        tableBody.appendChild(newRow);
+        }
+    })
+    .catch(error => console.error(error));
+
     </script>
+    
 </body>
 </html>
