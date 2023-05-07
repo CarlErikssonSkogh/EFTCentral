@@ -1,3 +1,13 @@
+<!--Jag hade inte tid att göra klart alla knappar då det finns extremt många där alla ska göra samma sak. Denna enda kalibern som fungerar är 7.62x39 för tillfället.
+alla maps fungerar. Ingen armor fungerar men det är bara copypaste från ammunution fast byta ut bilderna och informationen. Att göra klart alla knappar för all ammunution 
+och armor är något som jag kommer att göra vid ett senare tillfälle, t.ex under kompleteringen eftersom det inte är någon "ny kod" utan mest copy paste fast byta ut information-->
+
+
+
+
+
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,7 +16,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <!-- Lägger till en länk till en Boxicons css-fil -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Lägger till en länk till en Bootstrap-icons css-fil -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <script src="script.js"></script>
     <title>EFTCentral</title>
@@ -15,10 +27,12 @@
     <div class = "main">
         <header class="header">
             <div class="headerLeft">
+            <!-- Skapar en div med en klass "siteName" som används som en länk till hemsidans huvudsida -->
             <div class ="siteName" onclick="location.href='#'" style ="cursor:pointer"></div>
+            <!-- Skapar en sökfält div som används för att söka efter information på hemsidan -->
             <div class=searchDiv>
-                
-                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+             <!-- Skapar en lista (ul) som innehåller länkar (a) till olika avsnitt av hemsidan --> 
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search" title="Type in a name">
                 <ul id="myUL">
                     <li ><a href="#section2">About</a></li>
                     <li ><a href="#section4">Ammunition</a></li>
@@ -27,7 +41,7 @@
                     <li ><a href="#section5">Armor</a></li>
                     <li ><a href="#section5">Helmet</a></li>
                     <li ><a href="#">Gun modification</a></li>
-
+                     <!-- Skapar länkar till varje enskild karta -->
                     <li ><a href="mapshtml.html?id=0">Customs</a></li>
                     <li ><a href="mapshtml.html?id=1">Woods</a></li>
                     <li ><a href="mapshtml.html?id=2">Shoreline</a></li>
@@ -37,29 +51,29 @@
                     <li ><a href="mapshtml.html?id=6">Factory</a></li>
                     <li ><a href="mapshtml.html?id=7">Interchange</a></li>
                     <li ><a href="mapshtml.html?id=8">Labs</a></li>
-
-                    <li ><a href="#">7.62x25mm</a></li>
-                    <li ><a href="#">9x18mm</a></li>
-                    <li ><a href="#">9x19mm</a></li>
-                    <li ><a href="#">9x21mm</a></li>
-                    <li ><a href="#">.45 ACP</a></li>
-                    <li ><a href="#">4.6x30mm</a></li>
-                    <li ><a href="#">5.7x28mm</a></li>
-                    <li ><a href="#">5.45x39mm</a></li>
-                    <li ><a href="#">5.56x45mm</a></li>
+                    <!-- Skapar länkar till varje enskild ammunitionstyp -->
+                    <li ><a href="">7.62x25mm</a></li>
+                    <li ><a href="">9x18mm</a></li>
+                    <li ><a href="">9x19mm</a></li>
+                    <li ><a href="">9x21mm</a></li>
+                    <li ><a href="">.45 ACP</a></li>
+                    <li ><a href="">4.6x30mm</a></li>
+                    <li ><a href="">5.7x28mm</a></li>
+                    <li ><a href="">5.45x39mm</a></li>
+                    <li ><a href="">5.56x45mm</a></li>
                     <li ><a href="ammohtml.html?id=0">7.62x39mm</a></li>
-                    <li ><a href="#">9x39mm</a></li>
-                    <li ><a href="#">.366 TKM</a></li>
-                    <li ><a href="#">12.7x55mm</a></li>
-                    <li ><a href="#">12.7x108mm</a></li>
-                    <li ><a href="#">.300</a></li>
-                    <li ><a href="#">7.62x51mm</a></li>
-                    <li ><a href="#">7.62x54mm</a></li>
-                    <li ><a href="#">.338</a></li>
-                    <li ><a href="#">12x70mm</a></li>
-                    <li ><a href="#">20x70mm</a></li>
-                    <li ><a href="#">23x75mm</a></li>
-                    <li ><a href="#">40x46mm</a></li>
+                    <li ><a href="">9x39mm</a></li>
+                    <li ><a href="">.366 TKM</a></li>
+                    <li ><a href="">12.7x55mm</a></li>
+                    <li ><a href="">12.7x108mm</a></li>
+                    <li ><a href="">.300</a></li>
+                    <li ><a href="">7.62x51mm</a></li>
+                    <li ><a href="">7.62x54mm</a></li>
+                    <li ><a href="">.338</a></li>
+                    <li ><a href="">12x70mm</a></li>
+                    <li ><a href="">20x70mm</a></li>
+                    <li ><a href="">23x75mm</a></li>
+                    <li ><a href="">40x46mm</a></li>
                 </ul>
             </div>
             </div>
