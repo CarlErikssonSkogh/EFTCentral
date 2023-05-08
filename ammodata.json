@@ -70,37 +70,48 @@
 
     [
       {
-        "icon": "ammo/5.45x39/BP.jpg",
-        "name": "5.45x39mm BP gzh",
-        "fleshDmg": "37",
-        "penetration": "41",
-        "armorDmg": "62",
-        "recoil": "+3",
-        "projectileSpeed": "890",
+        "icon": "ammo/23x75/barricade.webp",
+        "name": "23x75mm 'Barrikada' slug",
+        "fleshDmg": "192",
+        "penetration": "39",
+        "armorDmg": "75",
+        "recoil": "+25",
+        "projectileSpeed": "420",
         "specialEffects":"",
-        "obtainedBy": "Workbench LVL3"
+        "obtainedBy": "Prapor LVL4"
       },
       {
-        "icon": "ammo/5.45x39/HP.jpg",
-        "name": "5.45x39mm HP",
-        "fleshDmg": "63",
-        "penetration": "6",
+        "icon": "ammo/23x75/shrap-10.webp",
+        "name": "23x75mm 'Shrapnel-10' buckshot",
+        "fleshDmg": "8x87",
+        "penetration": "11",
         "armorDmg": "20",
         "recoil": "",
-        "projectileSpeed": "890",
+        "projectileSpeed": "270",
         "specialEffects":"",
-        "obtainedBy": "Prapor LL1 Jaeger LL1"
+        "obtainedBy": "Prapor LL3"
       },
       {
-        "icon": "ammo/5.45x39/BT.jpg",
-        "name": "5.45x39mm BT",
-        "fleshDmg": "41",
-        "penetration": "37",
-        "armorDmg": "54",
-        "recoil": "+5",
-        "projectileSpeed": "870",
+        "icon": "ammo/23x75/shrap-25.webp",
+        "name": "23x75mm 'Shrapnel-25' buckshot",
+        "fleshDmg": "8x78",
+        "penetration": "10",
+        "armorDmg": "20",
+        "recoil": "+10",
+        "projectileSpeed": "375",
         "specialEffects":"",
-        "obtainedBy": "Loot only"
+        "obtainedBy": "Prapor LL3"
+      },
+      {
+        "icon": "ammo/23x75/star.webp",
+        "name": "23x75mm 'Zvezda' flashbang round",
+        "fleshDmg": "0",
+        "penetration": "0",
+        "armorDmg": "0",
+        "recoil": "+20",
+        "projectileSpeed": "80",
+        "specialEffects":"Flashbang",
+        "obtainedBy": "USEC: Skier LL4 after Counteraction. BEAR: Prapor LL3 after Our Own Land. Workbench LV3"
       }
     ]
   ]
