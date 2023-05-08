@@ -78,7 +78,7 @@
         "recoil": "+25",
         "projectileSpeed": "420",
         "specialEffects":"",
-        "obtainedBy": "Prapor LVL4"
+        "obtainedBy": "Prapor LL4"
       },
       {
         "icon": "ammo/23x75/shrap-10.webp",
@@ -112,6 +112,96 @@
         "projectileSpeed": "80",
         "specialEffects":"Flashbang",
         "obtainedBy": "USEC: Skier LL4 after Counteraction. BEAR: Prapor LL3 after Our Own Land. Workbench LV3"
+      }
+    ],
+    [
+      {
+        "icon": "ammo/20x70/poleva6u.webp",
+        "name": "20/70 'Poleva-6u' slug",
+        "fleshDmg": "135",
+        "penetration": "17",
+        "armorDmg": "40",
+        "recoil": "-10",
+        "projectileSpeed": "445",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL1"
+      },
+      {
+        "icon": "ammo/20x70/star.webp",
+        "name": "20/70 Star slug",
+        "fleshDmg": "154",
+        "penetration": "16",
+        "armorDmg": "42",
+        "recoil": "+5",
+        "projectileSpeed": "415",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL3"
+      },
+      {
+        "icon": "ammo/20x70/poleva3.webp",
+        "name": "20/70 'Poleva-3' slug",
+        "fleshDmg": "120",
+        "penetration": "14",
+        "armorDmg": "35",
+        "recoil": "-15",
+        "projectileSpeed": "425",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL1"
+      },
+      {
+        "icon": "ammo/20x70/devastator.webp",
+        "name": "20/70 Devastator slug",
+        "fleshDmg": "198",
+        "penetration": "5",
+        "armorDmg": "13",
+        "recoil": "+30",
+        "projectileSpeed": "405",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL3"
+      },
+      {
+        "icon": "ammo/20x70/BUCKSHOT_73.webp",
+        "name": "20/70 7.3mm buckshot",
+        "fleshDmg": "9x23",
+        "penetration": "3",
+        "armorDmg": "13",
+        "recoil": "+15",
+        "projectileSpeed": "430",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL2"
+      },
+      {
+        "icon": "ammo/20x70/buckshot_75.webp",
+        "name": "20/70 7.5mm buckshot",
+        "fleshDmg": "8x25",
+        "penetration": "3",
+        "armorDmg": "14",
+        "recoil": "",
+        "projectileSpeed": "430",
+        "specialEffects":"",
+        "obtainedBy": "Skier LL1 Jaeger LL1"
+      },
+      {
+        "icon": "ammo/20x70/buckshot_62.webp",
+        "name": "20/70 6.2mm buckshot",
+        "fleshDmg": "8x22",
+        "penetration": "2",
+        "armorDmg": "13",
+        "recoil": "",
+        "projectileSpeed": "410",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL2"
+      },
+      {
+        "icon": "ammo/20x70/buckshot_56.webp",
+        "name": "20/70 5.6mm buckshot",
+        "fleshDmg": "8x26",
+        "penetration": "1",
+        "armorDmg": "12",
+        "recoil": "+10",
+        "projectileSpeed": "340",
+        "specialEffects":"Subsonic",
+        "obtainedBy": "Jaeger LL1"
       }
     ]
   ]
