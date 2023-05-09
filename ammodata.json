@@ -206,7 +206,7 @@
     ],
     [
       {
-        "icon": "ammo/.338/AP.webp",
+        "icon": "ammo/.338/AP.jpg",
         "name": ".338 Lapua Magnum AP",
         "fleshDmg": "115",
         "penetration": "79",
@@ -217,7 +217,7 @@
         "obtainedBy": "Loot only(extreamly rare)"
       },
       {
-        "icon": "ammo/.338/fmj.webp",
+        "icon": "ammo/.338/fmj.jpg",
         "name": ".338 Lapua Magnum FMJ",
         "fleshDmg": "122",
         "penetration": "47",
@@ -228,7 +228,7 @@
         "obtainedBy": "Peacekeeper LL4"
       },
       {
-        "icon": "ammo/.338/tacx.webp",
+        "icon": "ammo/.338/tacx.jpg",
         "name": ".338 Lapua Magnum UCW",
         "fleshDmg": "142",
         "penetration": "32",
@@ -239,7 +239,7 @@
         "obtainedBy": "Jaeger LL4"
       },
       {
-        "icon": "ammo/.338/UCW.webp",
+        "icon": "ammo/.338/UCW.jpg",
         "name": ".338 Lapua Magnum TAC-X",
         "fleshDmg": "196",
         "penetration": "18",
