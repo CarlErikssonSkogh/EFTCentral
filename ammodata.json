@@ -160,7 +160,7 @@
         "obtainedBy": "Jaeger LL3"
       },
       {
-        "icon": "ammo/20x70/BUCKSHOT_73.webp",
+        "icon": "ammo/20x70/buckshot_73.webp",
         "name": "20/70 7.3mm buckshot",
         "fleshDmg": "9x23",
         "penetration": "3",
@@ -193,13 +193,261 @@
         "obtainedBy": "Jaeger LL2"
       },
       {
-        "icon": "ammo/20x70/buckshot_56.webp",
+        "icon": "ammo/20x70/BUCKSHOT_56.webp",
         "name": "20/70 5.6mm buckshot",
         "fleshDmg": "8x26",
         "penetration": "1",
         "armorDmg": "12",
         "recoil": "+10",
         "projectileSpeed": "340",
+        "specialEffects":"Subsonic",
+        "obtainedBy": "Jaeger LL1"
+      }
+    ],
+    [
+      {
+        "icon": "ammo/.338/ap.webp",
+        "name": ".338 Lapua Magnum AP",
+        "fleshDmg": "115",
+        "penetration": "79",
+        "armorDmg": "89",
+        "recoil": "+10",
+        "projectileSpeed": "849",
+        "specialEffects":"",
+        "obtainedBy": "Loot only(extreamly rare)"
+      },
+      {
+        "icon": "ammo/.338/fmj.webp",
+        "name": ".338 Lapua Magnum FMJ",
+        "fleshDmg": "122",
+        "penetration": "47",
+        "armorDmg": "83",
+        "recoil": "",
+        "projectileSpeed": "900",
+        "specialEffects":"",
+        "obtainedBy": "Peacekeeper LL4"
+      },
+      {
+        "icon": "ammo/.338/ucw.webp",
+        "name": ".338 Lapua Magnum UCW",
+        "fleshDmg": "142",
+        "penetration": "32",
+        "armorDmg": "70",
+        "recoil": "",
+        "projectileSpeed": "849",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL4"
+      },
+      {
+        "icon": "ammo/.338/tacx.webp",
+        "name": ".338 Lapua Magnum TAC-X",
+        "fleshDmg": "196",
+        "penetration": "18",
+        "armorDmg": "55",
+        "recoil": "+5",
+        "projectileSpeed": "880",
+        "specialEffects":"",
+        "obtainedBy": "Mechanic LL4 after Import"
+      }
+    ],
+    [
+      {
+        "icon": "ammo/12.7x108/B32FIFTY.webp",
+        "name": "12.7x108mm B-32",
+        "fleshDmg": "182",
+        "penetration": "88",
+        "armorDmg": "88",
+        "recoil": "",
+        "projectileSpeed": "818",
+        "specialEffects":"",
+        "obtainedBy": "unobtainable"
+      },
+      {
+        "icon": "ammo/12.7x108/BZT44FIFTY.webp",
+        "name": "12.7x108mm BZT-44M",
+        "fleshDmg": "199",
+        "penetration": "80",
+        "armorDmg": "95",
+        "recoil": "",
+        "projectileSpeed": "818",
+        "specialEffects":"Explosive, Tracer(green)",
+        "obtainedBy": "unobtainable"
+      }
+    ],
+    [
+      {
+        "icon": "ammo/12x70/apwebp.webp",
+        "name": "12/70 AP-20 armor-piercing slug",
+        "fleshDmg": "164",
+        "penetration": "37",
+        "armorDmg": "65",
+        "recoil": "+50",
+        "projectileSpeed": "510",
+        "specialEffects":"",
+        "obtainedBy": "Workbench LV3"
+      },
+      {
+        "icon": "ammo/12x70/flechette.webp",
+        "name": "12/70 flechette",
+        "fleshDmg": "8x25",
+        "penetration": "31",
+        "armorDmg": "26",
+        "recoil": "",
+        "projectileSpeed": "320",
+        "specialEffects": "Subsonic",
+        "obtainedBy": "Jaeger LL3 after The Huntsman Path - Forest Cleaning, Workbench LV2"
+        },
+        {
+        "icon": "ammo/12x70/BMG.webp",
+        "name": "12/70 makeshift .50 BMG slug",
+        "fleshDmg": "197",
+        "penetration": "26",
+        "armorDmg": "57",
+        "recoil": "+25",
+        "projectileSpeed": "410",
+        "specialEffects": "Tracer (red)",
+        "obtainedBy": "Jaeger LL3 after Silent Caliber"
+        },
+        {
+        "icon": "ammo/12x70/poleva-6u.webp",
+        "name": "12/70 'Poleva-6u' slug",
+        "fleshDmg": "150",
+        "penetration": "20",
+        "armorDmg": "50",
+        "recoil": "-10",
+        "projectileSpeed": "430",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL2"
+        },
+        {
+        "icon": "ammo/12x70/ftx.webp",
+        "name": "12/70 FTX Custom Lite slug",
+        "fleshDmg": "183",
+        "penetration": "20",
+        "armorDmg": "50",
+        "recoil": "-25",
+        "projectileSpeed": "480",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL2"
+        },
+        {
+        "icon": "ammo/12x70/poleva3.webp",
+        "name": "12/70 'Poleva-3' slug",
+        "fleshDmg": "140",
+        "penetration": "17",
+        "armorDmg": "40",
+        "recoil": "-15",
+        "projectileSpeed": "480",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL1"
+        },
+      {
+        "icon": "ammo/12x70/dualsabot.webp",
+        "name": "12/70 Dual Sabot slug",
+        "fleshDmg": "2x85",
+        "penetration": "17",
+        "armorDmg": "65",
+        "recoil": "+15",
+        "projectileSpeed": "415",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL3"
+      },
+      {
+        "icon": "ammo/12x70/lead.webp",
+        "name": "12/70 lead slug",
+        "fleshDmg": "167",
+        "penetration": "15",
+        "armorDmg": "55",
+        "recoil": "",
+        "projectileSpeed": "370",
+        "specialEffects":"",
+        "obtainedBy": "Skier LL1Peacekeeper LL1 Jaeger LL1"
+      },
+      {
+        "icon": "ammo/12x70/sabot.webp",
+        "name": "12/70 Copper Sabot Premier HP slug",
+        "fleshDmg": "206",
+        "penetration": "14",
+        "armorDmg": "46",
+        "recoil": "+10",
+        "projectileSpeed": "442",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL3"
+      },
+      {
+        "icon": "ammo/12x70/grizzly.webp",
+        "name": "12/70 Grizzly 40 slug",
+        "fleshDmg": "190",
+        "penetration": "12",
+        "armorDmg": "48",
+        "recoil": "+20",
+        "projectileSpeed": "390",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL1"
+      },
+      {
+        "icon": "ammo/12x70/superformance.webp",
+        "name": "12/70 SuperFormance HP slug",
+        "fleshDmg": "220",
+        "penetration": "5",
+        "armorDmg": "12",
+        "recoil": "-15",
+        "projectileSpeed": "594",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL4"
+      },
+      {
+        "icon": "ammo/12x70/express.webp",
+        "name": "12/70 6.5mm Express buckshot",
+        "fleshDmg": "9x35",
+        "penetration": "3",
+        "armorDmg": "26",
+        "recoil": "",
+        "projectileSpeed": "430",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL1"
+      },
+      {
+        "icon": "ammo/12x70/buckshot_7.webp",
+        "name": "12/70 7mm buckshot",
+        "fleshDmg": "8x39",
+        "penetration": "3",
+        "armorDmg": "26",
+        "recoil": "",
+        "projectileSpeed": "415",
+        "specialEffects":"",
+        "obtainedBy": "Skier LL1 Jaeger LL1"
+      },
+      {
+        "icon": "ammo/12x70/magnum.webp",
+        "name": "12/70 8.5mm Magnum buckshot",
+        "fleshDmg": "8x50",
+        "penetration": "2",
+        "armorDmg": "26",
+        "recoil": "+115",
+        "projectileSpeed": "385",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL2 Workbench LV1"
+      },
+      {
+        "icon": "ammo/12x70/RIP.webp",
+        "name": "12/70 RIP",
+        "fleshDmg": "265",
+        "penetration": "2",
+        "armorDmg": "11",
+        "recoil": "+35",
+        "projectileSpeed": "410",
+        "specialEffects":"",
+        "obtainedBy": "Skier LL3 (Barter) after Bullshit, Workbench LV2"
+      },
+      {
+        "icon": "ammo/12x70/buckshot_525.webp",
+        "name": "12/70 5.25mm buckshot",
+        "fleshDmg": "8x37",
+        "penetration": "1",
+        "armorDmg": "15",
+        "recoil": "",
+        "projectileSpeed": "330",
         "specialEffects":"Subsonic",
         "obtainedBy": "Jaeger LL1"
       }

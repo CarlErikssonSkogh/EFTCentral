@@ -262,8 +262,8 @@ body {
 /*Ammo*/
 
 .icon{
-  height:7vh;
-  width:7vh;
+  height:5vh;
+  width:5vh;
 }
 
 table, th, td {
@@ -282,7 +282,7 @@ table, th, td {
   background-color: rgb(0, 0, 0); 
   background-image: url(images/ammowall.png); 
   background-repeat: no-repeat; 
-  background-size: 100%;
+  background-size: cover;
 }
 
 th{
@@ -290,7 +290,7 @@ width: 15vh;
 }
 
 /*responsivitet*/
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 913px) {
 .siteName{
   background-size: 20vh;
 }
@@ -326,10 +326,11 @@ width: 15vh;
   width:20px;
 }
 .icon{
-  height:2vh;
-  width:2vh;
+  height:4vh;
+  width:4vh;
 }
 table, th, td {
+  max-width: 100%;
   border:solid;
   border-width: 1px;
   border-color: white;
@@ -339,30 +340,20 @@ table, th, td {
   padding:0;
   flex-wrap: wrap;
 }
-  .icon {
-    height: 25px;
-    width: 25px;
-  }
-  
-  table {
-    font-size: 8px;
-  }
   
   th {
-    font-size: 8px;
+    font-size: 5px;
     width: 25%;
   }
   
   td {
     font-size: 8px;
-    width: 25%;
   }
   .ammoBody{
-    height:100%;
     width: 100%;
     background-image: url(images/ammowall.png); 
     background-repeat: no-repeat; 
-    background-size: cover;
+    background-size: 300%;
   }
   .middleSegment{
     font-size: 2vh;
@@ -377,3 +368,8 @@ table, th, td {
   }
 }
 
+@media only screen and (max-width: 413px) {
+  td {
+    font-size: 5px;
+  }
+}
