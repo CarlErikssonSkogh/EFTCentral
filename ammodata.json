@@ -206,7 +206,7 @@
     ],
     [
       {
-        "icon": "ammo/.338/ap.webp",
+        "icon": "ammo/.338/AP.webp",
         "name": ".338 Lapua Magnum AP",
         "fleshDmg": "115",
         "penetration": "79",
@@ -228,7 +228,7 @@
         "obtainedBy": "Peacekeeper LL4"
       },
       {
-        "icon": "ammo/.338/ucw.webp",
+        "icon": "ammo/.338/tacx.webp",
         "name": ".338 Lapua Magnum UCW",
         "fleshDmg": "142",
         "penetration": "32",
@@ -239,7 +239,7 @@
         "obtainedBy": "Jaeger LL4"
       },
       {
-        "icon": "ammo/.338/tacx.webp",
+        "icon": "ammo/.338/UCW.webp",
         "name": ".338 Lapua Magnum TAC-X",
         "fleshDmg": "196",
         "penetration": "18",
@@ -320,7 +320,7 @@
         "obtainedBy": "Jaeger LL2"
         },
         {
-        "icon": "ammo/12x70/ftx.webp",
+        "icon": "ammo/12x70/FTX.webp",
         "name": "12/70 FTX Custom Lite slug",
         "fleshDmg": "183",
         "penetration": "20",
