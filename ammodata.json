@@ -451,5 +451,113 @@
         "specialEffects":"Subsonic",
         "obtainedBy": "Jaeger LL1"
       }
+    ],
+    [
+      {
+        "icon": "ammo/12.7x55/PS12B.webp",
+        "name": "12.7x55mm PS12B",
+        "fleshDmg": "102",
+        "penetration": "46",
+        "armorDmg": "57",
+        "recoil": "+15",
+        "projectileSpeed": "300",
+        "specialEffects":"Subsonic",
+        "obtainedBy": "Workbench LV3"
+      },
+      {
+        "icon": "ammo/12.7x55/PS12.webp",
+        "name": "12.7x55mm PS12",
+        "fleshDmg": "115",
+        "penetration": "28",
+        "armorDmg": "60",
+        "recoil": "",
+        "projectileSpeed": "285",
+        "specialEffects":"Subsonic",
+        "obtainedBy": "Prapor LL4"
+      },
+      {
+        "icon": "ammo/12.7x55/PS12A.webp",
+        "name": "12.7x55mm PS12A",
+        "fleshDmg": "165",
+        "penetration": "10",
+        "armorDmg": "22",
+        "recoil": "-12",
+        "projectileSpeed": "290",
+        "specialEffects":"Subsonic",
+        "obtainedBy": "Prapor LL3"
+      }
+    ],
+    [
+      {
+        "icon": "ammo/45/AP.webp",
+        "name": ".45 ACP AP",
+        "fleshDmg": "66",
+        "penetration": "38",
+        "armorDmg": "48",
+        "recoil": "+7",
+        "projectileSpeed": "299",
+        "specialEffects":"Subsonic",
+        "obtainedBy": "Workbench LV2"
+      },
+      {
+        "icon": "ammo/45/FMJ.webp",
+        "name": ".45 ACP Match FMJ",
+        "fleshDmg": "72",
+        "penetration": "25",
+        "armorDmg": "36",
+        "recoil": "",
+        "projectileSpeed": "340",
+        "specialEffects":"Subsonic",
+        "obtainedBy": "Peacekeeper LL1"
+      },
+      {
+        "icon": "ammo/45/lasermatch.webp",
+        "name": ".45 ACP Lasermatch FMJ",
+        "fleshDmg": "76",
+        "penetration": "19",
+        "armorDmg": "37",
+        "recoil": "",
+        "projectileSpeed": "290",
+        "specialEffects":"Subsonic, Tracer (red)",
+        "obtainedBy": "Peacekeeper LL2"
+      },
+      {
+        "icon": "ammo/45/hydra.webp",
+        "name": ".45 ACP Hydra-Shok",
+        "fleshDmg": "100",
+        "penetration": "13",
+        "armorDmg": "30",
+        "recoil": "",
+        "projectileSpeed": "274",
+        "specialEffects":"Subsonic",
+        "obtainedBy": "Peacekeeper LL2"
+      },
+      {
+        "icon": "ammo/45/rip.webp",
+        "name": ".45 ACP RIP",
+        "fleshDmg": "130",
+        "penetration": "3",
+        "armorDmg": "12",
+        "recoil": "",
+        "projectileSpeed": "293",
+        "specialEffects":"Subsonic",
+        "obtainedBy": "Mechanic LL4"
+      }
     ]
   ]
+
+
+
+[
+  {
+    "icon": "ammo//.webp",
+    "name": "",
+    "fleshDmg": "",
+    "penetration": "",
+    "armorDmg": "",
+    "recoil": "",
+    "projectileSpeed": "",
+    "specialEffects":"",
+    "obtainedBy": ""
+  },
+]
