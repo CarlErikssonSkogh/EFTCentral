@@ -545,19 +545,3 @@
       }
     ]
   ]
-
-
-
-[
-  {
-    "icon": "ammo//.webp",
-    "name": "",
-    "fleshDmg": "",
-    "penetration": "",
-    "armorDmg": "",
-    "recoil": "",
-    "projectileSpeed": "",
-    "specialEffects":"",
-    "obtainedBy": ""
-  },
-]
