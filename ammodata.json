@@ -543,5 +543,245 @@
         "specialEffects":"Subsonic",
         "obtainedBy": "Mechanic LL4"
       }
-    ]
-  ]
+    ],
+    [
+      {
+        "icon": "ammo/366/AP.webp",
+        "name": ".366 TKM AP-M",
+        "fleshDmg": "90",
+        "penetration": "42",
+        "armorDmg": "60",
+        "recoil": "+35",
+        "projectileSpeed": "602",
+        "specialEffects":"",
+        "obtainedBy": "Mechanic LL3, Workbench LV2"
+      },
+      {
+        "icon": "ammo/366/EKO.webp",
+        "name": ".366 TKM EKO",
+        "fleshDmg": "73",
+        "penetration": "30",
+        "armorDmg": "40",
+        "recoil": "-15",
+        "projectileSpeed": "770",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL1"
+      },
+      {
+        "icon": "ammo/366/fmj.webp",
+        "name": ".366 TKM FMJ",
+        "fleshDmg": "98",
+        "penetration": "23",
+        "armorDmg": "48",
+        "recoil": "+10",
+        "projectileSpeed": "580",
+        "specialEffects":"",
+        "obtainedBy": "Skier LL1, Jaeger LL1"
+      },
+      {
+        "icon": "ammo/366/geksa.webp",
+        "name": ".366 TKM Geksa",
+        "fleshDmg": "110",
+        "penetration": "14",
+        "armorDmg": "38",
+        "recoil": "",
+        "projectileSpeed": "550",
+        "specialEffects":"",
+        "obtainedBy": "Jaeger LL2"
+      }
+  ],
+  [
+    {
+      "icon": "ammo/9x39/bp.webp",
+      "name": "9x39mm BP gs",
+      "fleshDmg": "60",
+      "penetration": "55",
+      "armorDmg": "68",
+      "recoil": "+22",
+      "projectileSpeed": "295",
+      "specialEffects":"Subsonic",
+      "obtainedBy": "Prapor LL4 (Barter) after Grenadier"
+    },
+    {
+      "icon": "ammo/9x39/PAB-9.webp",
+      "name": "9x39mm PAB-9 gs",
+      "fleshDmg": "62",
+      "penetration": "48",
+      "armorDmg": "72",
+      "recoil": "+10",
+      "projectileSpeed": "320",
+      "specialEffects":"Subsonic",
+      "obtainedBy": "Workbench LV3"
+    },
+    {
+      "icon": "ammo/9x39/SP6.webp",
+      "name": "9x39mm SP-6 gs",
+      "fleshDmg": "58",
+      "penetration": "46",
+      "armorDmg": "60",
+      "recoil": "+10",
+      "projectileSpeed": "305",
+      "specialEffects":"Subsonic",
+      "obtainedBy": "Prapor LL3, Workbench LV2"
+    },
+    {
+      "icon": "ammo/9x39/spp.webp",
+      "name": "9x39mm SPP gs",
+      "fleshDmg": "68",
+      "penetration": "40",
+      "armorDmg": "55",
+      "recoil": "+10",
+      "projectileSpeed": "310",
+      "specialEffects":"Subsonic",
+      "obtainedBy": "Prapor LL3 (Barter), Prapor LL4 after Test Drive - Part 1, Workbench LV3"
+    },
+    {
+      "icon": "ammo/9x39/SP5.webp",
+      "name": "9x39mm SP-5 gs",
+      "fleshDmg": "71",
+      "penetration": "28",
+      "armorDmg": "60",
+      "recoil": "-5",
+      "projectileSpeed": "290",
+      "specialEffects":"Subsonic",
+      "obtainedBy": "Prapor LL2"
+    }
+],
+[
+  {
+    "icon": "ammo/9x21/BT.webp",
+    "name": "9x21mm BT gzh",
+    "fleshDmg": "63",
+    "penetration": "39",
+    "armorDmg": "47",
+    "recoil": "",
+    "projectileSpeed": "410",
+    "specialEffects":"Tracer (red)",
+    "obtainedBy": "Workbench LV2"
+  },
+  {
+    "icon": "ammo/9x21/ps.webp",
+    "name": "9x21mm PS gzh",
+    "fleshDmg": "49",
+    "penetration": "35",
+    "armorDmg": "46",
+    "recoil": "",
+    "projectileSpeed": "410",
+    "specialEffects":"",
+    "obtainedBy": "Prapor LL3"
+  },
+  {
+    "icon": "ammo/9x21/p.webp",
+    "name": "9x21mm P gzh",
+    "fleshDmg": "65",
+    "penetration": "18",
+    "armorDmg": "44",
+    "recoil": "",
+    "projectileSpeed": "413",
+    "specialEffects":"",
+    "obtainedBy": "Prapor LL1" 
+  },
+  {
+    "icon": "ammo/9x21/pe.webp",
+    "name": "9x21mm PE gzh",
+    "fleshDmg": "80",
+    "penetration": "15",
+    "armorDmg": "63",
+    "recoil": "",
+    "projectileSpeed": "415",
+    "specialEffects":"",
+    "obtainedBy": "Prapor LL2"
+  }
+],
+[
+  {
+    "icon": "ammo/9x19/PBP.webp",
+    "name": "9x19mm PBP gzh",
+    "fleshDmg": "52",
+    "penetration": "39",
+    "armorDmg": "53",
+    "recoil": "+5",
+    "projectileSpeed": "560",
+    "specialEffects":"",
+    "obtainedBy": "Workbench LV3"
+  },
+  {
+    "icon": "ammo/9x19/ap.webp",
+    "name": "9x19mm AP 6.3",
+    "fleshDmg": "52",
+    "penetration": "30",
+    "armorDmg": "48",
+    "recoil": "",
+    "projectileSpeed": "392",
+    "specialEffects":"",
+    "obtainedBy": "Peacekeeper LL3, Workbench LV2"
+  },
+  {
+    "icon": "ammo/9x19/pst.webp",
+    "name": "9x19mm Pst gzh",
+    "fleshDmg": "54",
+    "penetration": "20",
+    "armorDmg": "33",
+    "recoil": "",
+    "projectileSpeed": "457",
+    "specialEffects":"",
+    "obtainedBy": "Prapor LL2, Peacekeeper LL2, Mechanic LL2"
+  },
+  {
+    "icon": "ammo/9x19/greentracer.webp",
+    "name": "9x19mm Green Tracer",
+    "fleshDmg": "58",
+    "penetration": "14",
+    "armorDmg": "33",
+    "recoil": "-6",
+    "projectileSpeed": "365",
+    "specialEffects":"Tracer (green)",
+    "obtainedBy": "Mechanic LL1"
+  },
+  {
+    "icon": "ammo/9x19/luger.webp",
+    "name": "9x19mm Luger CCI",
+    "fleshDmg": "70",
+    "penetration": "10",
+    "armorDmg": "38",
+    "recoil": "",
+    "projectileSpeed": "420",
+    "specialEffects":"",
+    "obtainedBy": "Skier LL4"
+  },
+  {
+    "icon": "ammo/9x19/PSO.webp",
+    "name": "9x19mm PSO gzh",
+    "fleshDmg": "59",
+    "penetration": "10",
+    "armorDmg": "32",
+    "recoil": "",
+    "projectileSpeed": "340",
+    "specialEffects":"Subsonic",
+    "obtainedBy": "Peacekeeper LL1, Jaeger LL1"
+  },
+  {
+    "icon": "ammo/9x19/quake.webp",
+    "name": "9x19mm QuakeMaker",
+    "fleshDmg": "85",
+    "penetration": "8",
+    "armorDmg": "22",
+    "recoil": "+10",
+    "projectileSpeed": "290",
+    "specialEffects":"Subsonic",
+    "obtainedBy": "Peacekeeper LL3"
+  },
+  {
+    "icon": "ammo/9x19/rip.webp",
+    "name": "9x19mm RIP",
+    "fleshDmg": "102",
+    "penetration": "2",
+    "armorDmg": "11",
+    "recoil": "+5",
+    "projectileSpeed": "381",
+    "specialEffects":"",
+    "obtainedBy": "Skier LL4 (Barter) after Setup, Jaeger LL4 (Barter), Workbench LV3"
+  }
+]
+]
+
