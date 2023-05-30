@@ -1,73 +1,50 @@
 [
     [
         {
-        "icon": "ammo/7.62x39/AP.jpg",
-        "name": "7.62x39mm MAI AP",
-        "fleshDmg": "46",
-        "penetration": "58",
-        "armorDmg": "76",
-        "recoil": "+10",
-        "projectileSpeed": "730",
-        "specialEffects":"",
-        "obtainedBy": "Loot only"
-        },
-      {
-        "icon": "ammo/7.62x39/BP.jpg",
-        "name": "7.62x39mm BP gzh",
-        "fleshDmg": "58",
-        "penetration": "47",
-        "armorDmg": "63",
-        "recoil": "+5",
-        "projectileSpeed": "730",
-        "specialEffects":"",
-        "obtainedBy": "Workbench LVL3"
-      },
-      {
-        "icon": "ammo/7.62x39/PS.jpg",
-        "name": "7.62x39mm PS gzh",
-        "fleshDmg": "57",
+        "icon": "ammo/357/fmj.webp",
+        "name": ".357 Magnum FMJ",
+        "fleshDmg": "70",
         "penetration": "35",
-        "armorDmg": "52",
-        "recoil": "",
-        "projectileSpeed": "700",
+        "armorDmg": "43",
+        "recoil": "+12",
+        "projectileSpeed": "385",
         "specialEffects":"",
-        "obtainedBy": "Prapor LL2"
-      },
-      {
-        "icon": "ammo/7.62x39/T45M.jpg",
-        "name": "7.62x39mm T-45M1 gzh",
-        "fleshDmg": "64",
-        "penetration": "30",
-        "armorDmg": "46",
-        "recoil": "-6",
-        "projectileSpeed": "720",
-        "specialEffects":"Tracer(red)",
-        "obtainedBy": "Prapor LL2"
-      },
-      {
-        "icon": "ammo/7.62x39/US.webp",
-        "name": "7.62x39mm US gzh",
-        "fleshDmg": "58",
-        "penetration": "29",
-        "armorDmg": "42",
-        "recoil": "-30",
-        "projectileSpeed": "300",
-        "specialEffects":"Subsonic",
-        "obtainedBy": "Prapor LL3"
-      },
-      {
-        "icon": "ammo/7.62x39/HP.jpg",
-        "name": "7.62x39mm HP",
-        "fleshDmg": "87",
-        "penetration": "15",
-        "armorDmg": "35",
-        "recoil": "",
-        "projectileSpeed": "754",
-        "specialEffects":"",
-        "obtainedBy": "Prapor LL1 Jaeger LL1"
-      }
+        "obtainedBy": "Jaeger LL2"
+        },
+        {
+          "icon": "ammo/357/jhp.webp",
+          "name": ".357 Magnum JHP",
+          "fleshDmg": "88",
+          "penetration": "24",
+          "armorDmg": "28",
+          "recoil": "+8",
+          "projectileSpeed": "425",
+          "specialEffects":"",
+          "obtainedBy": "Jaeger LL3"
+        },
+        {
+          "icon": "ammo/357/hp.webp",
+          "name": ".357 Magnum HP",
+          "fleshDmg": "99",
+          "penetration": "18",
+          "armorDmg": "20",
+          "recoil": "+15",
+          "projectileSpeed": "481",
+          "specialEffects":"",
+          "obtainedBy": "Jaeger LL2"
+        },
+        {
+          "icon": "ammo/357/sp.webp",
+          "name": ".357 Magnum SP",
+          "fleshDmg": "108",
+          "penetration": "12",
+          "armorDmg": "15",
+          "recoil": "-29",
+          "projectileSpeed": "455",
+          "specialEffects":"",
+          "obtainedBy": "Jaeger LL2"
+        }
     ],
-
     [
       {
         "icon": "ammo/23x75/barricade.webp",
@@ -1479,7 +1456,7 @@
     "projectileSpeed": "947",
     "specialEffects":"",
     "obtainedBy": "Jaeger LL1"
-  },
+  },  
   {
     "icon": "ammo/5.56x45/warmageddon.webp",
     "name": "5.56x45mm Warmageddon",
@@ -1490,6 +1467,197 @@
     "projectileSpeed": "936",
     "specialEffects":"",
     "obtainedBy": "Peacekeeper LL3 (Barter), Jaeger LL4 (Barter)"
+  }
+],
+[
+  {
+    "icon": "ammo/5.45x39/ppbs.webp",
+    "name": "5.45x39mm PPBS gs 'Igolnik'",
+    "fleshDmg": "37",
+    "penetration": "62",
+    "armorDmg": "55",
+    "recoil": "+15",
+    "projectileSpeed": "905",
+    "specialEffects":"",
+    "obtainedBy": "Workbench LV3"
+  },
+  {
+    "icon": "ammo/5.45x39/bs.webp",
+    "name": "5.45x39mm BS gs",
+    "fleshDmg": "40",
+    "penetration": "52",
+    "armorDmg": "57",
+    "recoil": "+10",
+    "projectileSpeed": "830",
+    "specialEffects":"",
+    "obtainedBy": "Prapor LL3 (Barter)"
+  },
+  {
+    "icon": "ammo/5.45x39/7n40.webp",
+    "name": "5.45x39mm 7N40",
+    "fleshDmg": "52",
+    "penetration": "44",
+    "armorDmg": "50",
+    "recoil": "-20",
+    "projectileSpeed": "915",
+    "specialEffects":"",
+    "obtainedBy": "Loot only"
+  },
+  {
+    "icon": "ammo/5.45x39/bt.webp",
+    "name": "5.45x39mm BT gs",
+    "fleshDmg": "42",
+    "penetration": "42",
+    "armorDmg": "35",
+    "recoil": "+3",
+    "projectileSpeed": "880",
+    "specialEffects":"Tracer (red)",
+    "obtainedBy": "Prapor LL2 (Barter), Prapor LL3 after The Punisher - Part 4"
+  },
+  {
+    "icon": "ammo/5.45x39/bp.webp",
+    "name": "5.45x39mm BP gs",
+    "fleshDmg": "45",
+    "penetration": "37",
+    "armorDmg": "41",
+    "recoil": "",
+    "projectileSpeed": "890",
+    "specialEffects":"",
+    "obtainedBy": "Prapor LL2 (Barter), Prapor LL3"
+  },
+  {
+    "icon": "ammo/5.45x39/pp.webp",
+    "name": "5.45x39mm PP gs",
+    "fleshDmg": "44",
+    "penetration": "36",
+    "armorDmg": "38",
+    "recoil": "",
+    "projectileSpeed": "886",
+    "specialEffects":"",
+    "obtainedBy": "Prapor LL2, Workbench LV2"
+  },
+  {
+    "icon": "ammo/5.45x39/ps.webp",
+    "name": "5.45x39mm PS gs",
+    "fleshDmg": "48",
+    "penetration": "31",
+    "armorDmg": "35",
+    "recoil": "",
+    "projectileSpeed": "890",
+    "specialEffects":"",
+    "obtainedBy": "Prapor LL1 after Delivery from the Past"
+  },
+  {
+    "icon": "ammo/5.45x39/fmj.webp",
+    "name": "5.45x39mm FMJ",
+    "fleshDmg": "56",
+    "penetration": "21",
+    "armorDmg": "30",
+    "recoil": "",
+    "projectileSpeed": "884",
+    "specialEffects":"",
+    "obtainedBy": "Jaeger LL1"
+  },
+  {
+    "icon": "ammo/5.45x39/t.webp",
+    "name": "5.45x39mm T gs",
+    "fleshDmg": "57",
+    "penetration": "20",
+    "armorDmg": "38",
+    "recoil": "-5",
+    "projectileSpeed": "883",
+    "specialEffects":"Tracer (red)",
+    "obtainedBy": "Prapor LL1"
+  },
+  {
+    "icon": "ammo/5.45x39/us.webp",
+    "name": "5.45x39mm US gs",
+    "fleshDmg": "65",
+    "penetration": "15",
+    "armorDmg": "34",
+    "recoil": "-25",
+    "projectileSpeed": "303",
+    "specialEffects":"Subsonic",
+    "obtainedBy": "Prapor LL2"
+  },
+  {
+    "icon": "ammo/5.45x39/sp.webp",
+    "name": "5.45x39mm SP",
+    "fleshDmg": "68",
+    "penetration": "13",
+    "armorDmg": "34",
+    "recoil": "-15",
+    "projectileSpeed": "873",
+    "specialEffects":"",
+    "obtainedBy": "Jaeger LL2"
+  },
+  {
+    "icon": "ammo/5.45x39/hp.webp",
+    "name": "5.45x39mm HP",
+    "fleshDmg": "74",
+    "penetration": "12",
+    "armorDmg": "20",
+    "recoil": "+5",
+    "projectileSpeed": "884",
+    "specialEffects":"",
+    "obtainedBy": "Jaeger LL1"
+  },
+  {
+    "icon": "ammo/5.45x39/prs.webp",
+    "name": "5.45x39mm PRS gs",
+    "fleshDmg": "60",
+    "penetration": "12",
+    "armorDmg": "28",
+    "recoil": "-5",
+    "projectileSpeed": "866",
+    "specialEffects":"",
+    "obtainedBy": "Prapor LL1"
+  }
+],
+[
+  {
+    "icon": "ammo/4.6x30/ap.webp",
+    "name": "4.6x30mm AP SX",
+    "fleshDmg": "35",
+    "penetration": "53",
+    "armorDmg": "46",
+    "recoil": "+10",
+    "projectileSpeed": "680",
+    "specialEffects":"",
+    "obtainedBy": "Workbench LV3"
+  },
+  {
+    "icon": "ammo/4.6x30/fmj.webp",
+    "name": "4.6x30mm FMJ SX",
+    "fleshDmg": "43",
+    "penetration": "40",
+    "armorDmg": "41",
+    "recoil": "",
+    "projectileSpeed": "620",
+    "specialEffects":"",
+    "obtainedBy": "Peacekeeper LL3"
+  },
+  {
+    "icon": "ammo/4.6x30/subsonic.webp",
+    "name": "4.6x30mm Subsonic SX",
+    "fleshDmg": "45",
+    "penetration": "36",
+    "armorDmg": "46",
+    "recoil": "-22",
+    "projectileSpeed": "290",
+    "specialEffects":"Subsonic",
+    "obtainedBy": "Mechanic LL2"
+  },
+  {
+    "icon": "ammo/4.6x30/action.webp",
+    "name": "4.6x30mm Action SX",
+    "fleshDmg": "65",
+    "penetration": "18",
+    "armorDmg": "39",
+    "recoil": "",
+    "projectileSpeed": "690",
+    "specialEffects":"",
+    "obtainedBy": "Peacekeeper LL2, Mechanic LL1"
   }
 ]
 ]
