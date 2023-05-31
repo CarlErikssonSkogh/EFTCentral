@@ -400,6 +400,266 @@
         "weight": "7.8 kg",
         "slots": "12"
     }
+],
+[
+    {
+        "icon": "helmet/1/bomber.webp",
+        "name": "Bomber beanie",
+        "areas": "Top",
+        "durability": "150",
+        "weight": "0.1 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/1/tk fast mt.webp",
+        "name": "Tac-Kek FAST MT helmet (Replica)",
+        "areas": "Top, Nape",
+        "durability": "40",
+        "weight": "0.45 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/1/tank helmet.webp",
+        "name": "TSh-4M-L soft tank crew helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "100",
+        "weight": "0.9 kg",
+        "slots": "0"
+    }
+],
+[
+    {
+        "icon": "helmet/2/k-1s.webp",
+        "name": "Kolpak-1S riot helmet",
+        "areas": "Top",
+        "durability": "25",
+        "weight": "1.9 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/2/shpm.webp",
+        "name": "ShPM Firefighter helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "40",
+        "weight": "1.5 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/2/djeta.webp",
+        "name": "PSh-97 DJETA riot helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "65",
+        "weight": "1.3 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/2/pumpkin.webp",
+        "name": "Jack-o'-lantern tactical pumpkin helmet",
+        "areas": "Top, Nape, Ears, Eyes, Jaws",
+        "durability": "40",
+        "weight": "1.2 kg",
+        "slots": "0"
+    }
+],
+[
+    {
+        "icon": "helmet/3/lshz.webp",
+        "name": "LShZ light helmet",
+        "areas": "Top, Nape",
+        "durability": "30",
+        "weight": "0.95 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/ssh-68.webp",
+        "name": "SSh-68 steel helmet",
+        "areas": "Top, Nape",
+        "durability": "30",
+        "weight": "1.5 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/caiman.webp",
+        "name": "Galvion Caiman Hybrid helmet",
+        "areas": "Top, Nape",
+        "durability": "50",
+        "weight": "1.12 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/hjelm.webp",
+        "name": "NFM HJELM helmet",
+        "areas": "Top, Nape",
+        "durability": "65",
+        "weight": "0.8 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/untar.webp",
+        "name": "UNTAR helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "25",
+        "weight": "2.2 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/6b47.webp",
+        "name": "6B47 Ratnik-BSh helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "25",
+        "weight": "1.3 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/kiver-m.webp",
+        "name": "FORT Kiver-M bulletproof helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "35",
+        "weight": "1.2 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/sfera.webp",
+        "name": "SSSh-94 SFERA-S helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "100",
+        "weight": "3.5 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/ronin.webp",
+        "name": "DevTac Ronin ballistic helmet",
+        "areas": "Top, Nape, Ears, Eyes, Jaws",
+        "durability": "60",
+        "weight": "1.6 kg",
+        "slots": "0"
+    }
+],
+[
+    {
+        "icon": "helmet/4/tc-2001.webp",
+        "name": "MSA ACH TC-2001 MICH Series helmet",
+        "areas": "Top, Nape",
+        "durability": "25",
+        "weight": "1.4 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/tc-2002.webp",
+        "name": "MSA ACH TC-2002 MICH Series helmet",
+        "areas": "Top, Nape",
+        "durability": "27",
+        "weight": "1.45 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/achhc.webp",
+        "name": "HighCom Striker ACHHC IIIA helmet",
+        "areas": "Top, Nape",
+        "durability": "30",
+        "weight": "1.2 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/tc 800.webp",
+        "name": "MSA Gallet TC 800 High Cut combat helmet",
+        "areas": "Top, Nape",
+        "durability": "30",
+        "weight": "1.17 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/bastion.webp",
+        "name": "Diamond Age Bastion helmet",
+        "areas": "Top, Nape",
+        "durability": "40",
+        "weight": "0.96 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/fast mt.webp",
+        "name": "Ops-Core FAST MT Super High Cut helmet",
+        "areas": "Top, Nape",
+        "durability": "40",
+        "weight": "0.9 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/airframe tan.webp",
+        "name": "Crye Precision AirFrame helmet (Tan)",
+        "areas": "Top, Nape",
+        "durability": "40",
+        "weight": "0.88 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/exfil.webp",
+        "name": "Team Wendy EXFIL Ballistic Helmet",
+        "areas": "Top, Nape",
+        "durability": "45",
+        "weight": "1.18 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/zsh-1-2m.webp",
+        "name": "ZSh-1-2M helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "35",
+        "weight": "3.7 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/ulach.webp",
+        "name": "HighCom Striker ULACH IIIA helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "38",
+        "weight": "1.9 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/lshz-2dtm.webp",
+        "name": "BNTI LShZ-2DTM helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "55",
+        "weight": "3.4 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/maska 1sch.webp",
+        "name": "Maska-1SCh bulletproof helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "60",
+        "weight": "2.6 kg",
+        "slots": "0"
+    }
+],
+[
+    {
+        "icon": "helmet/5/altyn.webp",
+        "name": "Altyn bulletproof helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "45",
+        "weight": "4 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/5/rys-t.webp",
+        "name": "Rys-T bulletproof helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "50",
+        "weight": "4.5 kg",
+        "slots": "0"
+    }
+],
+[
+    {
+        "icon": "helmet/6/vulkan-5.webp",
+        "name": "Vulkan-5 (LShZ-5) bulletproof helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "55",
+        "weight": "4.5kg",
+        "slots": "0"
+    }  
 ]
 ]
 
