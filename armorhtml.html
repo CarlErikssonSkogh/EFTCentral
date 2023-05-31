@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="data.json"></script>
     <script type="text/javascript" src="javascrip.js"></script>
-    <title>Ammunition</title>
+    <title>Armor</title>
 </head>
-<body class="ammoBody">
+<body class="armorBody">
     <div class="jsonCode" style="height:100%; width:100%;display: flex;align-items: center;justify-content: center; margin-top: 10%; margin-bottom: 10%;">
 
         <table>
@@ -17,16 +17,13 @@
                 <tr>
                     <th>icon</th>
                     <th>name</th>
-                    <th>flesh damage</th>
-                    <th>penetration power</th>
-                    <th>armor damage %</th>
-                    <th>recoil</th>
-                    <th>projectilespeed (m/s)</th>
-                    <th>special Effects</th>
-                    <th>obtained by</th>
+                    <th>areas</th>
+                    <th>durability</th>
+                    <th>weight</th>
+                    <th>slots</th>
                 </tr>
             </thead>
-            <tbody id="ammoTableBody"></tbody>
+            <tbody id="armorTableBody"></tbody>
         </table>
     </div>
 
@@ -36,7 +33,7 @@
     let id = parameters.get("id");
 
     // Hämtar JSON-data från ammodata.json
-    fetch("ammodata.json")
+    fetch("armordata.json")
     .then(response => response.json())
     .then(data => {
 
@@ -46,19 +43,16 @@
 
         // Loopar igenom objektet som matchar id och skapar en HTML-tabellrad för varje objekt
         for (let i = 0; i < data[id].length; i++) {
-        const ammo = data[id][i];
+        const armor = data[id][i];
 
         const newRow = document.createElement("tr");
         newRow.innerHTML = `
-            <td><img class="icon" src="${ammo.icon}" alt="" style="object-fit: contain;"></td>
-            <td>${ammo.name}</td>
-            <td>${ammo.fleshDmg}</td>
-            <td>${ammo.penetration}</td>
-            <td>${ammo.armorDmg}</td>
-            <td style="color: ${ammo.recoil <= 0 ? 'green' : 'red'}">${ammo.recoil}</td>
-            <td>${ammo.projectileSpeed}</td>
-            <td>${ammo.specialEffects}</td>
-            <td>${ammo.obtainedBy}</td>
+            <td><img class="armorIcon" src="${armor.icon}" alt="" style="object-fit: contain;"></td>
+            <td>${armor.name}</td>
+            <td>${armor.areas}</td>
+            <td>${armor.durability}</td>
+            <td>${armor.weight}</td>
+            <td>${armor.slots}</td>
         `;
 
         // Lägger till raden i HTML-tabellen
