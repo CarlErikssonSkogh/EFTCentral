@@ -1,0 +1,666 @@
+[
+[
+    {
+        "icon": "armor/2/Module-3M.webp",
+        "name": "BNTI Module-3M body armor",
+        "areas": "Thorax, Stomach",
+        "durability": "40",
+        "weight": "6 kg",
+        "slots": "0"
+      },
+      {
+        "icon": "armor/2/PACA.webp",
+        "name": "PACA Soft Armor",
+        "areas": "Thorax, Stomach",
+        "durability": "50",
+        "weight": "3.5 kg",
+        "slots": "0"
+      },
+      {
+        "icon": "armor/2/PACA TR.webp",
+        "name": "PACA Soft Armor (Rivals Edition)",
+        "areas": "Thorax, Stomach",
+        "durability": "50",
+        "weight": "5 kg",
+        "slots": "0"
+      },
+      {
+        "icon": "armor/2/6B2.webp",
+        "name": "6B2 body armor (Flora)",
+        "areas": "Thorax, Stomach",
+        "durability": "80",
+        "weight": "5.4 kg",
+        "slots": "0"
+      }
+],
+[
+    {
+        "icon": "armor/3/MF-UN.webp",
+        "name": "MF-UNTAR body armor",
+        "areas": "Thorax, Stomach",
+        "durability": "50",
+        "weight": "8.5 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/3/Zhuk-3.webp",
+        "name": "BNTI Zhuk-3 body armor (Press)",
+        "areas": "Thorax, Stomach",
+        "durability": "50",
+        "weight": "5.2 kg",
+        "slots": "0"
+    } ,
+    {
+        "icon": "armor/3/6B23-1.webp",
+        "name": "6B23-1 body armor (Digital Flora)",
+        "areas": "Thorax, Stomach",
+        "durability": "60",
+        "weight": "7.9 kg",
+        "slots": "0"
+    } ,
+    {
+        "icon": "armor/3/DRD.webp",
+        "name": "DRD body armor",
+        "areas": "Thorax, Stomach",
+        "durability": "60",
+        "weight": "4 kg",
+        "slots": "0"
+    } ,
+    {
+        "icon": "armor/3/Kirasa.webp",
+        "name": "BNTI Kirasa-N body armor",
+        "areas": "Thorax, Stomach",
+        "durability": "70",
+        "weight": "7.1 kg",
+        "slots": "0"
+    } ,
+    {
+        "icon": "armor/3/6B5-16.webp",
+        "name": "6B5-16 Zh-86 Uley armored rig",
+        "areas": "Thorax, Stomach",
+        "durability": "80",
+        "weight": "7.1 kg",
+        "slots": "10"
+    } 
+],
+[
+    {
+        "icon": "armor/4/Trooper.webp",
+        "name": "HighCom Trooper TFO body armor (Multicam)",
+        "areas": "Thorax",
+        "durability": "85",
+        "weight": "6.8 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/4/THOR CRV.webp",
+        "name": "NFM THOR Concealable Reinforced Vest body armor",
+        "areas": "Thorax, Stomach",
+        "durability": "35",
+        "weight": "9 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/4/6B13.webp",
+        "name": "6B13 assault armor",
+        "areas": "Thorax, Stomach",
+        "durability": "47",
+        "weight": "10.5 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/4/6B23-2.webp",
+        "name": "6B23-2 body armor (Mountain Flora)",
+        "areas": "Thorax, Stomach",
+        "durability": "55",
+        "weight": "7.2 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/4/MMAC.webp",
+        "name": "Eagle Industries MMAC plate carrier (Ranger Green)",
+        "areas": "Thorax",
+        "durability": "40",
+        "weight": "7.2 kg",
+        "slots": "14"
+    },
+    {
+        "icon": "armor/4/Banshee.webp",
+        "name": "Shellback Tactical Banshee plate carrier (A-TACS AU)",
+        "areas": "Thorax",
+        "durability": "45",
+        "weight": "6.9 kg",
+        "slots": "16"
+    },
+    {
+        "icon": "armor/4/A18.webp",
+        "name": "Ars Arma A18 Skanda plate carrier",
+        "areas": "Thorax",
+        "durability": "80",
+        "weight": "8.2 kg",
+        "slots": "25"
+    },
+    {
+        "icon": "armor/4/TV-110.webp",
+        "name": "WARTECH TV-110 plate carrier",
+        "areas": "Thorax",
+        "durability": "85",
+        "weight": "10.3 kg",
+        "slots": "23"
+    },
+    {
+        "icon": "armor/4/Strandhogg.webp",
+        "name": "FirstSpear Strandhogg plate carrier (Ranger Green)",
+        "areas": "Thorax, Stomach",
+        "durability": "45",
+        "weight": "6.5 kg",
+        "slots": "17"
+    },
+    {
+        "icon": "armor/4/RBAV-AF.webp",
+        "name": "ECLiPSE RBAV-AF plate carrier (Ranger Green)",
+        "areas": "Thorax, Stomach",
+        "durability": "45",
+        "weight": "7.5 kg",
+        "slots": "19"
+    },
+    {
+        "icon": "armor/4/Osprey.webp",
+        "name": "CQC Osprey MK4A plate carrier (Assault, MTP)",
+        "areas": "Arms, Thorax",
+        "durability": "60",
+        "weight": "10.7 kg",
+        "slots": "25"
+    },
+    {
+        "icon": "armor/4/6B3TM-01M.webp",
+        "name": "6B3TM-01M armored rig",
+        "areas": "Thorax, Stomach",
+        "durability": "40",
+        "weight": "9.2 kg",
+        "slots": "12"
+    },
+    {
+        "icon": "armor/4/6B5-15.webp",
+        "name": "6B5-15 Zh-86 Uley armored rig",
+        "areas": "Thorax, Stomach",
+        "durability": "50",
+        "weight": "12.2 kg",
+        "slots": "10"
+    },
+    {
+        "icon": "armor/4/M2.webp",
+        "name": "ANA Tactical M2 plate carrier",
+        "areas": "Thorax, Stomach",
+        "durability": "60",
+        "weight": "7.0 kg",
+        "slots": "18"
+    },
+    {
+        "icon": "armor/4/M1.webp",
+        "name": "ANA Tactical M1 plate carrier",
+        "areas": "Thorax, Stomach",
+        "durability": "65",
+        "weight": "8.3 kg",
+        "slots": "20"
+    },
+    {
+        "icon": "armor/4/AVS.webp",
+        "name": "Crye Precision AVS plate carrier",
+        "areas": "Thorax, Stomach",
+        "durability": "70",
+        "weight": "8.7 kg",
+        "slots": "23"
+    }
+],
+[
+    {
+        "icon": "armor/5/HPC.webp",
+        "name": "Hexatac HPC Plate Carrier (Multicam Black)",
+        "areas": "Thorax",
+        "durability": "50",
+        "weight": "8.5 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/5/Korund-VM.webp",
+        "name": "NPP KlASS Korund-VM body armor",
+        "areas": "Thorax, Stomach",
+        "durability": "45",
+        "weight": "9.8 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/5/Redut-M.webp",
+        "name": "FORT Redut-M body armor",
+        "areas": "Thorax, Stomach",
+        "durability": "80",
+        "weight": "13.5 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/5/6B13M.webp",
+        "name": "6B13 M modified assault armor (Tan)",
+        "areas": "Thorax, Stomach",
+        "durability": "60",
+        "weight": "7.5 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/5/Gen4 HMK.webp",
+        "name": "IOTV Gen4 body armor (High Mobility Kit)",
+        "areas": "Thorax, Stomach",
+        "durability": "65",
+        "weight": "13 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/5/GZHEL-K.webp",
+        "name": "BNTI Gzhel-K body armor",
+        "areas": "Thorax, Stomach",
+        "durability": "65",
+        "weight": "8.9 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/5/Defender-2.webp",
+        "name": "FORT Defender-2 body armor",
+        "areas": "Thorax, Stomach",
+        "durability": "70",
+        "weight": "11.5 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/5/Gen4 Assault.webp",
+        "name": "IOTV Gen4 body armor (Assault Kit)",
+        "areas": "Arms, Thorax, Stomach",
+        "durability": "75",
+        "weight": "15 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/5/Gen4 Full.webp",
+        "name": "IOTV Gen4 body armor (Full Protection Kit)",
+        "areas": "Arms, Thorax, Stomach",
+        "durability": "110",
+        "weight": "17 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/5/Redut-T5.webp",
+        "name": "FORT Redut-T5 body armor",
+        "areas": "Arms, Thorax, Stomach",
+        "durability": "120",
+        "weight": "16.5 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/5/Tactec.webp",
+        "name": "5.11 Tactical TacTec plate carrier",
+        "areas": "Thorax",
+        "durability": "50",
+        "weight": "9.5 kg",
+        "slots": "18"
+    },
+    {
+        "icon": "armor/5/CPC MOD.webp",
+        "name": "Ars Arma CPC MOD.1 plate carrier",
+        "areas": "Thorax",
+        "durability": "60",
+        "weight": "8.5 kg",
+        "slots": "23"
+    },
+    {
+        "icon": "armor/5/CPC GE.webp",
+        "name": "Crye Precision CPC plate carrier (Goons Edition)",
+        "areas": "Thorax",
+        "durability": "75",
+        "weight": "9.6 kg",
+        "slots": "18"
+    },
+    {
+        "icon": "armor/5/PlateFrame GE.webp",
+        "name": "S&S Precision PlateFrame plate carrier (Goons Edition)",
+        "areas": "Thorax",
+        "durability": "86",
+        "weight": "6.4 kg",
+        "slots": "10"
+    },
+    {
+        "icon": "armor/5/Osprey MK4A.webp",
+        "name": "CQC Osprey MK4A plate carrier (Protection, MTP)",
+        "areas": "Arms, Thorax",
+        "durability": "55",
+        "weight": "12.5 kg",
+        "slots": "24"
+    },
+    {
+        "icon": "armor/5/Bagarly.webp",
+        "name": "NPP KlASS Bagariy armored rig",
+        "areas": "Thorax, Stomach",
+        "durability": "55",
+        "weight": "13 kg",
+        "slots": "25"
+    }
+],
+[
+    {
+        "icon": "armor/6/HGrid.webp",
+        "name": "5.11 Tactical Hexgrid plate carrier",
+        "areas": "Thorax",
+        "durability": "50",
+        "weight": "7.7 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/6/Slick.webp",
+        "name": "LBT-6094A Slick Plate Carrier",
+        "areas": "Thorax",
+        "durability": "80",
+        "weight": "9.7 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/6/Zhuk-6a.webp",
+        "name": "BNTI Zhuk-6a body armor",
+        "areas": "Thorax, Stomach",
+        "durability": "75",
+        "weight": "9 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/6/THOR IC.webp",
+        "name": "NFM THOR Integrated Carrier body armor",
+        "areas": "Arms, Thorax, Stomach",
+        "durability": "90",
+        "weight": "18 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/6/6B43 6A.webp",
+        "name": "6B43 6A Zabralo-Sh body armor",
+        "areas": "Arms, Thorax, Stomach",
+        "durability": "120",
+        "weight": "20 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "armor/6/TT SK.webp",
+        "name": "Tasmanian Tiger SK plate carrier (Multicam Black)",
+        "areas": "Thorax",
+        "durability": "40",
+        "weight": "7.5 kg",
+        "slots": "8"
+    },
+    {
+        "icon": "armor/6/AVS TE.webp",
+        "name": "Crye Precision AVS plate carrier (Tagilla Edition)",
+        "areas": "Thorax",
+        "durability": "60",
+        "weight": "7.8 kg",
+        "slots": "12"
+    }
+],
+[
+    {
+        "icon": "helmet/1/bomber.webp",
+        "name": "Bomber beanie",
+        "areas": "Top",
+        "durability": "150",
+        "weight": "0.1 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/1/tk fast mt.webp",
+        "name": "Tac-Kek FAST MT helmet (Replica)",
+        "areas": "Top, Nape",
+        "durability": "40",
+        "weight": "0.45 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/1/tank helmet.webp",
+        "name": "TSh-4M-L soft tank crew helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "100",
+        "weight": "0.9 kg",
+        "slots": "0"
+    }
+],
+[
+    {
+        "icon": "helmet/2/k-1s.webp",
+        "name": "Kolpak-1S riot helmet",
+        "areas": "Top",
+        "durability": "25",
+        "weight": "1.9 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/2/shpm.webp",
+        "name": "ShPM Firefighter helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "40",
+        "weight": "1.5 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/2/djeta.webp",
+        "name": "PSh-97 DJETA riot helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "65",
+        "weight": "1.3 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/2/pumpkin.webp",
+        "name": "Jack-o'-lantern tactical pumpkin helmet",
+        "areas": "Top, Nape, Ears, Eyes, Jaws",
+        "durability": "40",
+        "weight": "1.2 kg",
+        "slots": "0"
+    }
+],
+[
+    {
+        "icon": "helmet/3/lshz.webp",
+        "name": "LShZ light helmet",
+        "areas": "Top, Nape",
+        "durability": "30",
+        "weight": "0.95 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/ssh-68.webp",
+        "name": "SSh-68 steel helmet",
+        "areas": "Top, Nape",
+        "durability": "30",
+        "weight": "1.5 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/caiman.webp",
+        "name": "Galvion Caiman Hybrid helmet",
+        "areas": "Top, Nape",
+        "durability": "50",
+        "weight": "1.12 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/hjelm.webp",
+        "name": "NFM HJELM helmet",
+        "areas": "Top, Nape",
+        "durability": "65",
+        "weight": "0.8 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/untar.webp",
+        "name": "UNTAR helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "25",
+        "weight": "2.2 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/6b47.webp",
+        "name": "6B47 Ratnik-BSh helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "25",
+        "weight": "1.3 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/kiver-m.webp",
+        "name": "FORT Kiver-M bulletproof helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "35",
+        "weight": "1.2 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/sfera.webp",
+        "name": "SSSh-94 SFERA-S helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "100",
+        "weight": "3.5 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/3/ronin.webp",
+        "name": "DevTac Ronin ballistic helmet",
+        "areas": "Top, Nape, Ears, Eyes, Jaws",
+        "durability": "60",
+        "weight": "1.6 kg",
+        "slots": "0"
+    }
+],
+[
+    {
+        "icon": "helmet/4/tc-2001.webp",
+        "name": "MSA ACH TC-2001 MICH Series helmet",
+        "areas": "Top, Nape",
+        "durability": "25",
+        "weight": "1.4 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/tc-2002.webp",
+        "name": "MSA ACH TC-2002 MICH Series helmet",
+        "areas": "Top, Nape",
+        "durability": "27",
+        "weight": "1.45 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/achhc.webp",
+        "name": "HighCom Striker ACHHC IIIA helmet",
+        "areas": "Top, Nape",
+        "durability": "30",
+        "weight": "1.2 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/tc 800.webp",
+        "name": "MSA Gallet TC 800 High Cut combat helmet",
+        "areas": "Top, Nape",
+        "durability": "30",
+        "weight": "1.17 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/bastion.webp",
+        "name": "Diamond Age Bastion helmet",
+        "areas": "Top, Nape",
+        "durability": "40",
+        "weight": "0.96 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/fast mt.webp",
+        "name": "Ops-Core FAST MT Super High Cut helmet",
+        "areas": "Top, Nape",
+        "durability": "40",
+        "weight": "0.9 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/airframe tan.webp",
+        "name": "Crye Precision AirFrame helmet (Tan)",
+        "areas": "Top, Nape",
+        "durability": "40",
+        "weight": "0.88 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/exfil.webp",
+        "name": "Team Wendy EXFIL Ballistic Helmet",
+        "areas": "Top, Nape",
+        "durability": "45",
+        "weight": "1.18 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/zsh-1-2m.webp",
+        "name": "ZSh-1-2M helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "35",
+        "weight": "3.7 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/ulach.webp",
+        "name": "HighCom Striker ULACH IIIA helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "38",
+        "weight": "1.9 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/lshz-2dtm.webp",
+        "name": "BNTI LShZ-2DTM helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "55",
+        "weight": "3.4 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/4/maska 1sch.webp",
+        "name": "Maska-1SCh bulletproof helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "60",
+        "weight": "2.6 kg",
+        "slots": "0"
+    }
+],
+[
+    {
+        "icon": "helmet/5/altyn.webp",
+        "name": "Altyn bulletproof helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "45",
+        "weight": "4 kg",
+        "slots": "0"
+    },
+    {
+        "icon": "helmet/5/rys-t.webp",
+        "name": "Rys-T bulletproof helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "50",
+        "weight": "4.5 kg",
+        "slots": "0"
+    }
+],
+[
+    {
+        "icon": "helmet/6/vulkan-5.webp",
+        "name": "Vulkan-5 (LShZ-5) bulletproof helmet",
+        "areas": "Top, Nape, Ears",
+        "durability": "55",
+        "weight": "4.5kg",
+        "slots": "0"
+    }  
+]
+]
+
+

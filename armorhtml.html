@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="data.json"></script>
+    <script type="text/javascript" src="javascrip.js"></script>
+    <title>Armor</title>
+</head>
+<body class="armorBody">
+    <div class="jsonCode" style="height:100%; width:100%;display: flex;align-items: center;justify-content: center; margin-top: 10%; margin-bottom: 10%;">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>icon</th>
+                    <th>name</th>
+                    <th>areas</th>
+                    <th>durability</th>
+                    <th>weight</th>
+                    <th>slots</th>
+                </tr>
+            </thead>
+            <tbody id="armorTableBody"></tbody>
+        </table>
+    </div>
+
+    <script>
+    // Hämtar id från URL-parametern
+    let parameters = new URLSearchParams(window.location.search);
+    let id = parameters.get("id");
+
+    // Hämtar JSON-data från ammodata.json
+    fetch("armordata.json")
+    .then(response => response.json())
+    .then(data => {
+
+        // Hittar HTML-element som visar JSON-data
+        const subjectContainer = document.querySelector(".jsonCode");
+        const tableBody = subjectContainer.querySelector("table tbody");
+
+        // Loopar igenom objektet som matchar id och skapar en HTML-tabellrad för varje objekt
+        for (let i = 0; i < data[id].length; i++) {
+        const armor = data[id][i];
+
+        const newRow = document.createElement("tr");
+        newRow.innerHTML = `
+            <td><img class="armorIcon" src="${armor.icon}" alt="" style="object-fit: contain;"></td>
+            <td>${armor.name}</td>
+            <td>${armor.areas}</td>
+            <td>${armor.durability}</td>
+            <td>${armor.weight}</td>
+            <td>${armor.slots}</td>
+        `;
+
+        // Lägger till raden i HTML-tabellen
+        tableBody.appendChild(newRow);
+        }
+    })
+    .catch(error => console.error(error));
+
+    </script>
+    
+</body>
+</html>
