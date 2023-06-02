@@ -25,7 +25,6 @@ function searchFunction() {
     filter = input.value.toUpperCase();
     ul = document.getElementById("myUL");
     li = ul.getElementsByTagName("li");
-    test = document.getElementById("test");
 
     for (i = 0; i < li.length; i++) {
         if(filter==""){
