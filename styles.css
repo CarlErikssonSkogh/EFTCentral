@@ -152,6 +152,8 @@ body {
 .middleSegment{
   width: 100%;
   height:5vh;
+  text-align: center;
+  line-height: 4vh;
   background-color: rgb(58, 58, 58);
   color: whitesmoke;
   font-weight: 500;
@@ -282,6 +284,7 @@ body {
 }
 
 table, th, td {
+  flex-direction: row;
   border:solid;
   border-width: 1px;
   border-color: white;
@@ -387,11 +390,14 @@ table, th, td {
     background-color: rgb(22, 22, 22); 
   }
   .middleSegment{
-    font-size: 20vh;
+    text-align: center;
+    line-height: 3vh;
+    font-size: 1rem;
   }
 
   .sidebar {
     padding-top: 15px;
+   
   }
 
   .sidebar a {
@@ -405,6 +411,12 @@ table, th, td {
    height:40vh;
    background-repeat: no-repeat;
    background-size: cover;
+  }
+  #mySidebar{
+    width: 10vh;
+  }
+  #main{
+    width: 10vh;
   }
 }
 
